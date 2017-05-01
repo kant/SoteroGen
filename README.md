@@ -1,7 +1,7 @@
 SOTEROgen - Static site gerator with PHP 
 =========================
 
-![SOTEROgen]("https://github.com/LuisAraujo/SoteroGen/blob/master/logo.jpg?raw=true")
+![SOTEROgen](https://github.com/LuisAraujo/SoteroGen/blob/master/logo.jpg?raw=true)
 
 
 > This aplication change your txt file in a blog 
