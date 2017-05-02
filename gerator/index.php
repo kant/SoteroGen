@@ -248,28 +248,28 @@ function createContentPostHTML($post) {
 	global $nameYourBlog;
 $cont = '<html>
 <head>
-    <meta charset="utf-8">
-    <title>'.$nameYourBlog.' | '.$post->title.'</title>
-    <link href="../style/style_pages.css" rel="stylesheet">
-	
-	<meta property="og:locale" content="pt_BR">
-	<meta property="og:url" content="http://luisaraujo.github.io/blog/post/js/instalando_jsdoc.html">
-	<meta property="og:title" content="'.$post->title.'">
-	<meta property="og:site_name" content="'.$nameYourBlog.'">
-	<!-- need set abstract -->
-	<meta property="og:description" content="Aprenda a instalar e usar a API de documentação JsDoc para o seu projeto em javascript.">
-	
-	<meta property="og:image" content="https://luisaraujo.github.io/blog/img/capa.jpg">
-	<meta property="og:image:type" content="image/jpeg">
-	<meta property="og:image:width" content="800"> 
-	<meta property="og:image:height" content="600"> 
-	
+<meta charset="utf-8">
+<title>'.$nameYourBlog.' | '.$post->title.'</title>
+<link href="../style/style_pages.css" rel="stylesheet">
+
+<meta property="og:locale" content="pt_BR">
+<meta property="og:url" content="http://luisaraujo.github.io/blog/post/js/instalando_jsdoc.html">
+<meta property="og:title" content="'.$post->title.'">
+<meta property="og:site_name" content="'.$nameYourBlog.'">
+<!-- need set abstract -->
+<meta property="og:description" content="Aprenda a instalar e usar a API de documentação JsDoc para o seu projeto em javascript.">
+
+<meta property="og:image" content="https://luisaraujo.github.io/blog/img/capa.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="600">
+
 </head>
 
 <body>
 <header>
 <div class="delimiter">
-   <a href="../../index.html"> Luis Araujo </div></a>
+<a href="../../index.html"> Luis Araujo </div></a>
 </div>
 
 <div class="bt"><a href="../../about/index.html">sobre</div>
@@ -278,30 +278,30 @@ $cont = '<html>
 <article>
 
 <div class="post">
-	<div class="title">
-	<a href="#">'.$post->title.'</a>
-	</div>
-	
-	<div class="meta-data">
-	   Postado em:  '.$post->date.'| Tags: <a class="link" href="index.html" >'.$post->tags.'</a>
-	</div>
-	
-	<div class="abstract">
-		'.$post->content.'
-	</div>
+<div class="title">
+<a href="#">'.$post->title.'</a>
+</div>
+
+<div class="meta-data">
+   Postado em:  '.$post->date.'| Tags: <a class="link" href="index.html" >'.$post->tags.'</a>
+</div>
+
+<div class="abstract">
+    '.$post->content.'
+</div>
 </div>
 
 </article>
 
 <footer>
-	<div class="info">
-		Developmented with SoteroGen by Luis Araujo - 2017
-		<div class="icons">
-		<a href="https://www.facebook.com/canalLuis4raujo/?fref=ts" target="blank" class="icon-litte"><img src="../../images/fb-icon.png"></a>
-		<a href="https://www.youtube.com/user/Luis4raujo"  target="blank"  class="icon-litte"><img src="../../images/youtube-icon.png"></a>
-		<a href="https://github.com/LuisAraujo"  target="blank"  class="icon-litte"><img src="../../images/git-icon.png"></a>
-		</div>
-	</div>
+<div class="info">
+    Developmented with SoteroGen by Luis Araujo - 2017
+    <div class="icons">
+    <a href="https://www.facebook.com/canalLuis4raujo/?fref=ts" target="blank" class="icon-litte"><img src="../../images/fb-icon.png"></a>
+    <a href="https://www.youtube.com/user/Luis4raujo"  target="blank"  class="icon-litte"><img src="../../images/youtube-icon.png"></a>
+    <a href="https://github.com/LuisAraujo"  target="blank"  class="icon-litte"><img src="../../images/git-icon.png"></a>
+    </div>
+</div>
 </footer>
 
 </body>
@@ -316,29 +316,29 @@ function createContentHome($posts){
 	global $nameYourBlog;
 	
 	
-	$cont='<html>
-	   <head>
-		<meta charset="utf-8">
-		<title>'.$nameYourBlog.' | Blog</title>
-		<link href="style/style_home.css" rel="stylesheet">
-		
-		<meta property="og:locale" content="pt_BR">
-		<meta property="og:url" content="http://luisaraujo.github.io/blog/post/js/instalando_jsdoc.html">
-		<meta property="og:title" content="'.$nameYourBlog.' | Blog">
-		<meta property="og:site_name" content="'.$nameYourBlog.'">
-		<meta property="og:description" content="Seu blog sobre programação! Aprenda sobre web e games. Tudo sobre APIs, frameworks, padrões e programação no mesmo lugar!">
-		
-		<meta property="og:image" content="https://luisaraujo.github.io/blog/img/capa.jpg">
-		<meta property="og:image:type" content="image/jpeg">
-		<meta property="og:image:width" content="800"> 
-		<meta property="og:image:height" content="600">
-		
-	</head>
+$cont='<html>
+   <head>
+    <meta charset="utf-8">
+    <title>'.$nameYourBlog.' | Blog</title>
+    <link href="style/style_home.css" rel="stylesheet">
+
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="http://luisaraujo.github.io/blog/post/js/instalando_jsdoc.html">
+    <meta property="og:title" content="'.$nameYourBlog.' | Blog">
+    <meta property="og:site_name" content="'.$nameYourBlog.'">
+    <meta property="og:description" content="Seu blog sobre programação! Aprenda sobre web e games. Tudo sobre APIs, frameworks, padrões e programação no mesmo lugar!">
+
+    <meta property="og:image" content="https://luisaraujo.github.io/blog/img/capa.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="600">
+
+</head>
 
 <body>
 <header>
 <div class="delimiter">
-   <a href="index.html"> Luis Araujo </a>
+<a href="index.html"> Luis Araujo </a>
 </div> 
 </div>
 <div class="bt"><a href="about/index.html">sobre <a/> </div>
@@ -347,40 +347,39 @@ function createContentHome($posts){
 <article>'; 
 
 $limit = (count($posts->title) >  5) ? 5 : count($posts->title);
-echo $limit;
 
 for($i = 0; $i < $limit ;  $i++){
-$cont.='<div class="post">
-	<div class="title">
-	<a href="posts/'.getURLReplaced($posts->title[$i], $posts->tags[$i]).'.html">'.$posts->title[$i].'</a>
-	</div>
-	<div class="meta-data">
-	   Postado em:  '.$posts->date[$i].'
-	</div>
-	<div class="abstract">
-		'.$posts->abstract[$i].'
-	</div>
-	<span ><a class="tags" href="posts/'.$posts->tags[$i].'">'.$posts->tags[$i].' </a>
-</div>
-';
+    $cont.='<div class="post">
+    <div class="title">
+    <a href="posts/'.getURLReplaced($posts->title[$i], $posts->tags[$i]).'.html">'.$posts->title[$i].'</a>
+    </div>
+    <div class="meta-data">
+       Postado em:  '.$posts->date[$i].'
+    </div>
+    <div class="abstract">
+        '.$posts->abstract[$i].'
+    </div>
+    <span ><a class="tags" href="posts/'.$posts->tags[$i].'">'.$posts->tags[$i].' </a>
+    </div>
+    ';
 }
 
 $cont.='</article><footer>
-	<div class="info">
-		Developmented with SoteroGen by Luis Araujo - 2017
-		<div class="icons">
-		<a href="https://www.facebook.com/canalLuis4raujo/?fref=ts" target="blank" class="icon-litte"><img src="images/fb-icon.png"></a>
-		<a href="https://www.youtube.com/user/Luis4raujo"  target="blank"  class="icon-litte"><img src="images/youtube-icon.png"></a>
-		<a href="https://github.com/LuisAraujo"  target="blank"  class="icon-litte"><img src="images/git-icon.png"></a>
-		</div>
-		
-	</div>
+<div class="info">
+Developmented with SoteroGen by Luis Araujo - 2017
+<div class="icons">
+<a href="https://www.facebook.com/canalLuis4raujo/?fref=ts" target="blank" class="icon-litte"><img src="images/fb-icon.png"></a>
+<a href="https://www.youtube.com/user/Luis4raujo"  target="blank"  class="icon-litte"><img src="images/youtube-icon.png"></a>
+<a href="https://github.com/LuisAraujo"  target="blank"  class="icon-litte"><img src="images/git-icon.png"></a>
+</div>
+
+</div>
 </footer>
 
 </body>
 </html>';
 
-	return $cont;
+return $cont;
 
 
 }
@@ -430,73 +429,63 @@ $cont = '<html>
     <title>'.$nameYourBlog.' | Blog</title>
     <link href="../style/style_pages.css" rel="stylesheet">
 </head>
-
 <body>
 <header>
 <div class="delimiter">
-   <a href="../../index.html"> '.$nameYourBlog.' </div></a>
+<a href="../../index.html"> '.$nameYourBlog.' </div></a>
 </div>
-
 <div class="bt"><a href="../../about/index.html">sobre</div>
-
 </header>
 <article>
-
 <div class="post">
-	<div class="title">
-	<a href="#">'.ucfirst($tag).'</a>
-	</div>
-	
-	<div class="meta-data">
-	   Todos os posts sobre '.$tag.'
-	</div>
-	
-	<div class="abstract">';
-	   
-	   $dir = $dirMainSite."/posts/".$tag;
-	   
-	   if ($handle = opendir($dir)) {
-    	  //while has file
-        while (false !== ($file = readdir($handle))) {
-        	   //exception
-            if ($file != "." && $file != "..") {
-				    //explode for know extension of file                
-                $nameFile = explode(".",$file);
-                //encode content
-                $file = utf8_encode($file);
-					 //if file has extension and is txt file                
-                if((count($nameFile) > 1) && ($nameFile[1] == "html" ) && ($nameFile[0] != "index" )){                		
-							$cont.='<ul>
-								<li class="listpost"> <a class="link" href="'.$file.'">'.ucfirst( explode(".", str_replace("_", " ",$file))[0] ).'</a></li>
-							</ul>'
-							               		;	
-                }
-            }
-        	}
-			//close dir
-      	closedir($handle);
-   	 }
-	
-	
-	
-	
-	
+<div class="title">
+<a href="#">'.ucfirst($tag).'</a>
+</div>
 
-$cont.='
-	</div>
+<div class="meta-data">
+Todos os posts sobre '.$tag.'
+</div>
+
+<div class="abstract">';
+	   
+$dir = $dirMainSite."/posts/".$tag;
+
+if ($handle = opendir($dir)) {
+  //while has file
+while (false !== ($file = readdir($handle))) {
+       //exception
+    if ($file != "." && $file != "..") {
+            //explode for know extension of file
+        $nameFile = explode(".",$file);
+        //encode content
+        $file = utf8_encode($file);
+             //if file has extension and is txt file
+        if((count($nameFile) > 1) && ($nameFile[1] == "html" ) && ($nameFile[0] != "index" )){
+                    $cont.='<ul>
+                        <li class="listpost"> <a class="link" href="'.$file.'">'.ucfirst( explode(".", str_replace("_", " ",$file))[0] ).'</a></li>
+                    </ul>'
+                                        ;
+        }
+    }
+    }
+    //close dir
+closedir($handle);
+}
+
+$cont.='</div>
 </div>
 
 </article>
 
 <footer>
-	<div class="info">
-		Developmented with SoteroGen by Luis Araujo - 2017
-		<div class="icons">
-		<a href="https://www.facebook.com/canalLuis4raujo/?fref=ts" target="blank" class="icon-litte"><img src="../../images/fb-icon.png"></a>
-		<a href="https://www.youtube.com/user/Luis4raujo"  target="blank"  class="icon-litte"><img src="../../images/youtube-icon.png"></a>
-		<a href="https://github.com/LuisAraujo"  target="blank"  class="icon-litte"><img src="../../images/git-icon.png"></a>
-		</div>
-	</div>
+<div class="info">
+    Developmented with SoteroGen by Luis Araujo - 2017
+    <div class="icons">
+    <a href="https://www.facebook.com/canalLuis4raujo/?fref=ts" target="blank" class="icon-litte"><img src="../../images/fb-icon.png"></a>
+    <a href="https://www.youtube.com/user/Luis4raujo"  target="blank"  class="icon-litte"><img src="../../images/youtube-icon.png"></a>
+    <a href="https://github.com/LuisAraujo"  target="blank"  class="icon-litte"><img src="../../images/git-icon.png"></a>
+    </div>
+</div>
 </footer>
 
 </body>
@@ -550,7 +539,8 @@ function createContentPageAbout($content){
 global $nameYourBlog;
 
 
-$cont='<html>
+$cont='
+<html>
 <head>
     <meta charset="utf-8">
     <title>'.$nameYourBlog.' | Blog</title>
@@ -559,41 +549,37 @@ $cont='<html>
 
 <body>
 <header>
-<div class="delimiter">
-   <a href="../index.html"> '.$nameYourBlog.' </div></a>
-</div>
-
-<div class="bt"><a href="../../about/index.html">sobre</div>
-
+    <div class="delimiter">
+        <a href="../index.html"> '.$nameYourBlog.' </div></a>
+    </div>
+    <div class="bt"><a href="../../about/index.html">sobre</div>
 </header>
 <article>
 
 <div class="post">
-	<div class="title">
-	<a href="#">Sobre</a>
-	</div>
-	
-	<img class="profile" src="../images/perfil.png">
-	
-	<div class="abstract">'. $content. '</article>
+<div class="title">
+<a href="#">Sobre</a>
+</div>
+
+<img class="profile" src="../images/perfil.png">
+
+<div class="abstract">'. $content. '</article>
 
 <footer>
-	<div class="info">
-		Desenvolvido por Luis Araujo - 2017
-		<div class="icons">
-		<a href="https://www.facebook.com/canalLuis4raujo/?fref=ts" target="blank" class="icon-litte"><img src="../images/fb-icon.png"></a>
-		<a href="https://www.youtube.com/user/Luis4raujo"  target="blank"  class="icon-litte"><img src="../images/youtube-icon.png"></a>
-		<a href="https://github.com/LuisAraujo"  target="blank"  class="icon-litte"><img src="../images/git-icon.png"></a>
-		</div>
-	</div>
+<div class="info">
+    Desenvolvido por Luis Araujo - 2017
+    <div class="icons">
+    <a href="https://www.facebook.com/canalLuis4raujo/?fref=ts" target="blank" class="icon-litte"><img src="../images/fb-icon.png"></a>
+    <a href="https://www.youtube.com/user/Luis4raujo"  target="blank"  class="icon-litte"><img src="../images/youtube-icon.png"></a>
+    <a href="https://github.com/LuisAraujo"  target="blank"  class="icon-litte"><img src="../images/git-icon.png"></a>
+    </div>
+</div>
 </footer>
 
 </body>
 </html>';
 
-
 return $cont;
-
 
 }
 

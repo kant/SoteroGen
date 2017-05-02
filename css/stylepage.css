@@ -1,0 +1,151 @@
+body, html{
+  width:100%;
+  height:100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+    background-color: #444444;
+}
+
+header{
+    background-color: #eee;
+    height: 40px;
+    border-bottom: 1px solid #868686;
+    text-align: center;
+}
+
+#logo{
+    height: 40px;
+    margin-left: 5px;
+    float: left;
+}
+
+#content-left{
+    width: 250px;
+    height: calc(100% - 40px);
+    border-right: solid 1px #1a1a1a;
+    float: left;
+}
+
+#content-main{
+    width: calc(100% - 251px);
+    height: calc(100% - 40px);
+    background-color: #2e2e2e;
+    float: left;
+}
+
+#list-file{
+    padding: 10px;
+    color: #cecece;
+}
+
+.item-list-file{
+    height: 20px;
+    margin-bottom: 10px;
+}
+.item-list-file.active{
+    background-color: #4270b9;
+}
+
+.item-list-file:hover{
+    cursor: pointer;
+}
+.item-list-file img{
+    position: relative;
+    top:2px;
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 15px;
+}
+
+#head-list-file{
+  height: 25px;
+  width: 100%;
+  background-color: #2e2e2e;
+  border-bottom: solid 1px #1a1a1a;
+  color: #cecece;
+}
+
+#content-edit{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 90%;
+    color: #cecece;
+}
+
+.inp-text{
+    border-radius: 5px;
+    border:  1px solid #1a1a1a;
+    padding-left: 10px;
+    background-color: #383838;
+    margin-right: 10px;
+}
+
+
+.area-text{
+    border-radius: 5px;
+    border:  1px solid #1a1a1a;
+    padding-left: 10px;
+    background-color: #383838;
+    margin-right: 10px;
+    height: 100px;
+}
+
+
+input{
+    background: none;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    color: #cecece;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.title-inp{
+    font-size: 17px;
+    margin-top: 10px;
+    display: block;
+}
+
+.inp-text.litle{
+    width: calc( 100% - 25px);
+}
+
+.inp-text.midle{
+    width: 645px;
+}
+
+.left{
+     float: left;
+     width: 50%;
+ }
+
+textarea{
+    background: transparent;
+    color: white;
+    resize: none;
+    border: 0 none;
+    width: 1050px;
+    height: 100px;
+    outline: none;
+    position: absolute;
+}
+
+#menu-edit{
+    height: 20px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+#menu-edit img{
+    width: 20px;
+    height: 20px;
+}
+
+#menu-edit img:hover{
+    cursor: pointer;
+}

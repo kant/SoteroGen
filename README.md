@@ -1,6 +1,5 @@
 SOTEROgen - Static site gerator with PHP 
 =========================
-
 ![SOTEROgen](https://github.com/LuisAraujo/SoteroGen/blob/master/logo.jpg?raw=true)
 
 
