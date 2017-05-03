@@ -1,5 +1,6 @@
 <?php
 header ('Content-type: text/html; charset=UTF-8');
+include "../functionUtil.php";
 
 $dir = "posts";
 $dirMainSite = "site";
@@ -26,7 +27,7 @@ function getAllFileInDir($dir){
                 $nameFile = explode(".",$file);
                 //encode content
                 $file = utf8_encode($file);
-					 //if file has extension and is txt file                
+			    //if file has extension and is txt file
                 if((count($nameFile) > 1) && ($nameFile[1] == "txt" )){                		
 							      
                 		$files[ filemtime($dir."/".$file) ] = $file;
@@ -36,27 +37,22 @@ function getAllFileInDir($dir){
                 }
             }
         	}
-			//close dir
+		//close dir
       	closedir($handle);
    	 }
    	 
    	 //sort in growing order
-    	 krsort($files);
+     krsort($files);
     	     	 
-    	 foreach($files as $file) {
+    foreach($files as $file) {
         $lastModified = date('F d Y, H:i:s', filemtime($dir."/".$file)  );
         array_push($arrFiles,  str_replace("../", "", $dir)."/".$file);
-       //echo "<tr><td><input type=\"checkbox\" name=\"box[]\"></td><td><a href=\"$file\" target=\"_blank\">$file</a></td><td>$lastModified</td></tr>";
-       
     }	 
-	}
+}
 	
-	
-	
-	//call open files
-	openAllFiles($arrFiles);
-	
-	
+//call open files
+openAllFiles($arrFiles);
+
 }
 
 
@@ -197,14 +193,11 @@ function copyAllImagens(){
 
 //create post
 function createPostFiles($post){
-	
 	global $dirMainSite;  
-	
 
 	$url = getURLReplaced($post->title, $post->tags);
 	$newtag =  getStringReplaced($post->tags);
-	
-	
+
 	//verify and create (if need) directory of tag 
 	if (!file_exists( $dirMainSite."/posts/".$newtag )) {
 		mkdir ($dirMainSite."/posts/".$newtag."/", 0700);
@@ -223,29 +216,11 @@ function createPostFiles($post){
 }
 
 
-function getURLReplaced($title, $tag){
-	//get title post
-	$newtitle = str_replace(" ", "_",$title);
-	$newtitle = str_replace(PHP_EOL, "", $newtitle);
-	//get tag post
-	$newtag = str_replace(" ", "_",$tag);
-	$newtag = str_replace(PHP_EOL, "", $newtag);
-	
-	return $newtag."/".$newtitle;
-}
-
-function getStringReplaced($str){
-	
-	$str = str_replace(" ", "",$str);
-	$str = str_replace(PHP_EOL, "", $str);
-	return $str;
-}
-
-
 
 
 function createContentPostHTML($post) {
-	global $nameYourBlog;
+global $nameYourBlog;
+
 $cont = '<html>
 <head>
 <meta charset="utf-8">
@@ -313,8 +288,7 @@ return $cont;
 
 
 function createContentHome($posts){
-	global $nameYourBlog;
-	
+global $nameYourBlog;
 	
 $cont='<html>
    <head>

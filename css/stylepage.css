@@ -93,13 +93,19 @@ header{
     height: 100px;
 }
 
+.area-text.larger{
+    height: 350px;
+}
+
+
 
 input{
     background: none;
     border: none;
     width: 100%;
-    font-size: 20px;
+    font-size: 15px;
     color: #cecece;
+    height: 25px;
 }
 textarea:focus, input:focus{
     outline: none;
@@ -126,13 +132,20 @@ textarea:focus, input:focus{
 
 textarea{
     background: transparent;
-    color: white;
     resize: none;
     border: 0 none;
     width: 1050px;
     height: 100px;
     outline: none;
     position: absolute;
+    overflow: hidden;
+    text-overflow: clip;
+    font-size: 15px;
+    color: #cecece;
+}
+
+#inp-text-content{
+    height: 400px !important;
 }
 
 #menu-edit{
@@ -149,3 +162,18 @@ textarea{
 #menu-edit img:hover{
     cursor: pointer;
 }
+
+
+#inp-text-content2{
+    width: 100%;
+    height: 100%;
+    border: none;
+    overflow: scroll;
+    text-overflow: clip;
+}
+
+#inp-text-content2 body{
+    color: #cecece;
+}
+
+

@@ -1,0 +1,9 @@
+title:Instalando JsDoc 2
+tag:javascript
+date:01/05/2017
+abstract:Projetos em javascritp tem crescido consideravelmente. Hoje o js é a linguagem mais usada nos projetos do github. Com isso, se torna cada vez mais preciso documentar o seu código, o JSDoc é uma API simples e de fácil uso que permite construir sua documentação através dos comentários do seu código. Nesse post você aprederá como instalar e usar a API JSDoc para documentar o seu projeto!
+
+content:<p>Para quem não sabe o JSDoc é uma API para documentação de projetos javascripts. Basicamente ela funciona obtendo dados dos comentários, assim como JavaDoc. Para isso é preciso usar algumas tags (@) especificadas na documentação da API. Você pode consultar a documentação em
+<a class='link' href='http://usejsdoc.org/'> usejsdoc.org </a>.  Nesse post vamos mostrar como instalar e rodá-la no windows.</p> <div class='subtitle'> Pré-requisito para o JSDoc</div> <p>Você precisa instalar o Node.js para intalar o JSDoc.</p> <div class='subtitle'> Instalando o JSDoc</div> <p>Com o Node instalado, vá no console e instale o jsdoc com o seguinte comando&#58;</p> <div class='code'> npm install -g jsdoc </div>  <p>Pronto, você já 	possui o jsdoc. Como esse instalação é global, você só precisa usar o comando jsdoc para rodar. Vá até a pasta do seu projeto e execute o comando juntamente com o nome do arquivo&#58;</p> <div class='code'> jsdoc myfile.js</div> <p>Ele irá criar uma pasta chamada 'out' [essa pasta pode ser configurada com jsdoc -d] com a documentação em html.  <img class='emotion' src='../../images/happy-1.png'></p> <p>Há!!! Você pode colocar mais arquivos utilizando espaço&#58;</p> <div class='code'> jsdoc myfile.js myfile2.js </div> E também ter arquivos emoutra pasta <div class='code'> jsdoc myfile.js  Teste/myfile2.js </div> Qualquer dúvida manda entra em contato! 	
+
+	

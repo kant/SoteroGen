@@ -2,23 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70de3e99-f543-4773-a3d3-6e26b01ce630" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/stylepage.css" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator.php" afterPath="$PROJECT_DIR$/gerator/index.php" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\images\angry.png" afterPath="$PROJECT_DIR$/gerator/images/angry.png" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\images\crying-1.png" afterPath="$PROJECT_DIR$/gerator/images/crying-1.png" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\images\fb-icon.png" afterPath="$PROJECT_DIR$/gerator/images/fb-icon.png" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\images\git-icon.png" afterPath="$PROJECT_DIR$/gerator/images/git-icon.png" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\images\happy-1.png" afterPath="$PROJECT_DIR$/gerator/images/happy-1.png" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\images\in-love.png" afterPath="$PROJECT_DIR$/gerator/images/in-love.png" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\images\perfil.png" afterPath="$PROJECT_DIR$/gerator/images/perfil.png" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\images\youtube-icon.png" afterPath="$PROJECT_DIR$/gerator/images/youtube-icon.png" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\pagesfixed\about.txt" afterPath="$PROJECT_DIR$/gerator/pagesfixed/about.txt" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\posts\instalando_jsdoc.txt" afterPath="$PROJECT_DIR$/gerator/posts/instalando_jsdoc.txt" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\style\style_home.css" afterPath="$PROJECT_DIR$/gerator/style/style_home.css" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\style\style_pages.css" afterPath="$PROJECT_DIR$/gerator/style/style_pages.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logo.psd" afterPath="$PROJECT_DIR$/logo.psd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/functionUtil.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/getDataFile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/getListFile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gerator/posts/instalando_jsdoc2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scriptMain.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gerator/index.php" afterPath="$PROJECT_DIR$/gerator/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylepage.css" afterPath="$PROJECT_DIR$/css/stylepage.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SoteroGen.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,19 +37,83 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="29" selection-start="2065" selection-end="2073" vertical-scroll-proportion="-12.692307" vertical-offset="928" max-vertical-offset="1649">
+            <state line="82" column="58" selection-start="2390" selection-end="2390" vertical-scroll-proportion="-14.653846" vertical-offset="1013" max-vertical-offset="1802">
               <folding>
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#div#1;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylepage.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="stylepage.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/stylepage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="149" column="19" selection-start="2173" selection-end="2173" vertical-scroll-proportion="0.93172693" vertical-offset="1837" max-vertical-offset="2652">
+            <state line="174" column="19" selection-start="2503" selection-end="2503" vertical-scroll-proportion="0.0" vertical-offset="2398" max-vertical-offset="3145">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getListFile.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getListFile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="53" selection-start="1688" selection-end="1737" vertical-scroll-proportion="-20.103449" vertical-offset="617" max-vertical-offset="1360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getDataFile.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getDataFile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="27" selection-start="1020" selection-end="1020" vertical-scroll-proportion="-13.346154" vertical-offset="180" max-vertical-offset="901">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scriptAjaxPHP.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scriptAjaxPHP.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="969">
+              <folding>
+                <marker date="1493778556029" expanded="true" signature="1539:1550" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scriptMain.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scriptMain.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="39" selection-start="88" selection-end="88" vertical-scroll-proportion="0.06827309" vertical-offset="0" max-vertical-offset="747">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gerator/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="57" selection-end="87" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="9656">
+              <folding>
+                <marker date="1493772046537" expanded="true" signature="9601:10083" placeholder="..." />
+                <marker date="1493772046537" expanded="true" signature="9620:10073" placeholder="..." />
+                <marker date="1493772046537" expanded="true" signature="9691:10065" placeholder="..." />
+                <marker date="1493772046537" expanded="true" signature="12381:12904" placeholder="..." />
+                <marker date="1493772046537" expanded="true" signature="12400:12894" placeholder="..." />
+                <marker date="1493772046537" expanded="true" signature="12479:12887" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functionUtil.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functionUtil.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="42" selection-start="397" selection-end="428" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
@@ -77,8 +134,18 @@
       <list>
         <option value="$PROJECT_DIR$/gerator.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/getFilesPosts.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/gerator/posts/instalando_jsdoc2.txt" />
+        <option value="$PROJECT_DIR$/gerator/ScriptAjaxPHP.js" />
+        <option value="$PROJECT_DIR$/getListFile.php" />
+        <option value="$PROJECT_DIR$/functionUtil.php" />
+        <option value="$PROJECT_DIR$/gerator/index.php" />
+        <option value="$PROJECT_DIR$/getDataFile.php" />
         <option value="$PROJECT_DIR$/css/stylepage.css" />
+        <option value="$PROJECT_DIR$/scriptAjaxPHP.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scriptMain.js" />
       </list>
     </option>
   </component>
@@ -162,7 +229,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
+              <option name="myItemId" value="posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -191,12 +258,15 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\fl43\Documents\GitHub\SoteroGen" />
+      <recent name="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\posts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fl43\Documents\GitHub\SoteroGen" />
       <recent name="C:\Users\fl43\Documents\GitHub\SoteroGen\css" />
       <recent name="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator" />
     </key>
@@ -247,17 +317,17 @@
     <frame x="54" y="-8" width="1490" height="880" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24966079" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -282,9 +352,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24966079" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -304,33 +374,103 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gerator/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="10098">
-          <folding>
-            <marker date="1493685590140" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1493685590140" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1493685590140" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1493685590140" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1493685590140" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1493685590140" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="29" selection-start="2065" selection-end="2073" vertical-scroll-proportion="-12.692307" vertical-offset="928" max-vertical-offset="1649">
+        <state line="74" column="29" selection-start="2065" selection-end="2073" vertical-scroll-proportion="0.0" vertical-offset="928" max-vertical-offset="1649">
           <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/stylepage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="19" selection-start="2173" selection-end="2173" vertical-scroll-proportion="0.93172693" vertical-offset="1837" max-vertical-offset="2652">
+        <state line="149" column="19" selection-start="2173" selection-end="2173" vertical-scroll-proportion="0.0" vertical-offset="2533" max-vertical-offset="2652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gerator/posts/instalando_jsdoc2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.20844686" vertical-offset="0" max-vertical-offset="734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functionUtil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="42" selection-start="397" selection-end="428" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getListFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="53" selection-start="1688" selection-end="1737" vertical-scroll-proportion="-20.103449" vertical-offset="617" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getDataFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="27" selection-start="1020" selection-end="1020" vertical-scroll-proportion="-13.346154" vertical-offset="180" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gerator/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="57" selection-end="87" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="9656">
+          <folding>
+            <marker date="1493772046537" expanded="true" signature="9601:10083" placeholder="..." />
+            <marker date="1493772046537" expanded="true" signature="9620:10073" placeholder="..." />
+            <marker date="1493772046537" expanded="true" signature="9691:10065" placeholder="..." />
+            <marker date="1493772046537" expanded="true" signature="12381:12904" placeholder="..." />
+            <marker date="1493772046537" expanded="true" signature="12400:12894" placeholder="..." />
+            <marker date="1493772046537" expanded="true" signature="12479:12887" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stylepage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="19" selection-start="2503" selection-end="2503" vertical-scroll-proportion="0.0" vertical-offset="2398" max-vertical-offset="3145">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scriptAjaxPHP.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="969">
+          <folding>
+            <marker date="1493778556029" expanded="true" signature="1539:1550" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="58" selection-start="2390" selection-end="2390" vertical-scroll-proportion="-14.653846" vertical-offset="1013" max-vertical-offset="1802">
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scriptMain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="39" selection-start="88" selection-end="88" vertical-scroll-proportion="0.06827309" vertical-offset="0" max-vertical-offset="747">
           <folding />
         </state>
       </provider>
