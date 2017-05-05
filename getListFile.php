@@ -46,7 +46,7 @@ if (file_exists($dir)){
         while(!feof($myfile)) {
             //get line
             $linha = fgets($myfile);
-            $taglinha = explode(":",$linha);
+            $taglinha = explode(" : ",$linha);
 
             while($taglinha[0] == "title"){
                 $str = str_replace(" ", "",$taglinha[1]);

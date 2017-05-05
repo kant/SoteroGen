@@ -14,22 +14,31 @@
     <meta property="og:image:width" content="800">
     <meta property="og:image:height" content="600">
 
-    <script src="jquery.js"></script>
-    <script src="scriptAjaxPHP.js"></script>
+    <script src="script/libs/jquery.js"></script>
+    <script src="script/ManagerFile.js"></script>
+    <script src="script/Sotero.js"></script>
+    <script src="script/scriptAjaxPHP.js"></script>
 
-    <script src="scriptMain.js"></script>
+    <script src="script/scriptMain.js"></script>
 
 </head>
 <body>
 
 <header>
-<img id="logo" src="logo.png">
+<img id="logo" src="ui/logo.png">
 SteroGen
 </header>
+<div id="main-bar">
+    <span id="bt-newpost"><u>N</u>ovo Post</span>
+    <span id="bt-savepost"><u>S</u>alvar Post</span>
+    <span id="bt-settings" ><u>C</u>onfiguração</span>
+    <span id="bt-createblog">Create <u>B</u>log</span>
+    <span id="bt-about"><u>S</u>obre</span>
+</div>
 <article>
 <div id="content-left">
   <div id="head-list-file">
-      <div class="item-list-file"> <img src="icon_folder.png">All Posts</div>
+      <div class="item-head-list-file"> <img src="ui/icon_folder.png">All Posts</div>
   </div>
   <div id="list-file">
 
@@ -77,10 +86,11 @@ SteroGen
         <div style="width: 100%">
             <span class="title-inp">Texto</span>
             <div id="menu-edit">
-                <img src="icon_bold.png">
-                <img src="icon_italic.png">
-                <img src="icon_img.png">
-                <img id="bt-codemode" src="icon_code.png">
+                <img src="ui/icon_bold.png">
+                <img src="ui/icon_italic.png">
+                <img src="ui/icon_img.png">
+                <img id="bt-codemode" src="ui/icon_code.png">
+                <img id="bt-textmode" src="ui/icon_text.png">
             </div>
             <div class="area-text larger">
 

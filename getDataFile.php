@@ -15,7 +15,8 @@ $contenttrue = false;
 while(!feof($myfile)) {
     //get line
     $linha = fgets($myfile);
-    $taglinha = explode(":",$linha);
+
+    $taglinha = explode(" : ",$linha);
         //if has content
         if(count($taglinha ) > 1){
             //tag is equal title
@@ -33,10 +34,10 @@ while(!feof($myfile)) {
                 //tag is equal content
             }else if( ($taglinha[0] == "content") && (!$contenttrue) ){
                 $contenttrue = true;
-                $arr["content"] = utf8_encode(str_replace(PHP_EOL, "",$taglinha[1]));
-            }else if($contenttrue){
-                $arr["content"] .=  utf8_encode(str_replace(PHP_EOL, "",$taglinha[1]));
+                $arr["content"] = utf8_encode($taglinha[1]);
             }
+        }else if($contenttrue){
+            $arr["content"] .=  utf8_encode($taglinha[0]);
         }
 
 }

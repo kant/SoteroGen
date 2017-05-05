@@ -77,7 +77,7 @@ function openAllFiles($arrFiles){
 			//get line
 			$linha = fgets($myfile);
 			//explode for separate tag of content tag
-			$taglinha = explode(":",$linha);
+			$taglinha = explode(" : ",$linha);
 			
 			//if has content
 		   if(count($taglinha ) > 1){
@@ -96,12 +96,12 @@ function openAllFiles($arrFiles){
 					   array_push($posts->abstract, utf8_encode($taglinha[1]) );
 				//tag is equal content	     
 				}else if( ($taglinha[0] == "content") && (!$contenttrue) ){
-   				  $contenttrue = true;				    
-				     $joincontent = utf8_encode($taglinha[1]);					
-				}else if($contenttrue){
-					  $joincontent.= utf8_encode($taglinha[1]);		
+   				  $contenttrue = true;
+                  $joincontent = utf8_encode($taglinha[1]);
 				}
-			} 
+			}else if($contenttrue){
+               $joincontent .=  utf8_encode($taglinha[0]);
+           }
   			
 		}
 		
