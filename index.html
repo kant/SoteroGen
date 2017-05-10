@@ -17,7 +17,6 @@
     <script src="script/libs/jquery.js"></script>
     <script src="script/ManagerFile.js"></script>
     <script src="script/Sotero.js"></script>
-    <script src="script/scriptAjaxPHP.js"></script>
 
     <script src="script/scriptMain.js"></script>
 
@@ -29,7 +28,7 @@
 SteroGen
 </header>
 <div id="main-bar">
-    <span id="bt-newpost"><u>N</u>ovo Post</span>
+    <span id="bt-newpost">Novo <u>P</u>ost</span>
     <span id="bt-savepost"><u>S</u>alvar Post</span>
     <span id="bt-settings" ><u>C</u>onfiguração</span>
     <span id="bt-createblog">Create <u>B</u>log</span>
@@ -84,13 +83,20 @@ SteroGen
 
 
         <div style="width: 100%">
+            <input style="display: none" id="inp-image" type="file">
             <span class="title-inp">Texto</span>
             <div id="menu-edit">
-                <img src="ui/icon_bold.png">
-                <img src="ui/icon_italic.png">
-                <img src="ui/icon_img.png">
-                <img id="bt-codemode" src="ui/icon_code.png">
-                <img id="bt-textmode" src="ui/icon_text.png">
+                <img id="bt-textmode" src="ui/icon_text.png" style="margin-right: 10px">
+                <img id="bt-codemode" src="ui/icon_code.png" style="margin-right: 10px">
+                <img id="bt-bold" src="ui/icon_bold.png">
+                <img  id="bt-italic" src="ui/icon_italic.png">
+                <img id="bt-setimage" src="ui/icon_img.png">
+
+                <img id="bt-setcode" src="ui/icon_code2.png">
+                <img id="bt-settitle" src="ui/icon_title.png">
+                <img id="bt-setlink" src="ui/icon_link.png">
+
+
             </div>
             <div class="area-text larger">
 
@@ -103,8 +109,9 @@ SteroGen
         </div>
 
     </div>
-
 </div>
+
+
 </article>
 
 </body>

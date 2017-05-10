@@ -2,28 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70de3e99-f543-4773-a3d3-6e26b01ce630" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script/ManagerFile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script/Sotero.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saveFilesPost.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script/scriptMain.js" />
-      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\scriptMain.js" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\icon_bold.png" afterPath="$PROJECT_DIR$/ui/icon_bold.png" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\icon_code.png" afterPath="$PROJECT_DIR$/ui/icon_code.png" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\icon_folder.png" afterPath="$PROJECT_DIR$/ui/icon_folder.png" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\icon_img.png" afterPath="$PROJECT_DIR$/ui/icon_img.png" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\icon_italic.png" afterPath="$PROJECT_DIR$/ui/icon_italic.png" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\icon_li.png" afterPath="$PROJECT_DIR$/ui/icon_li.png" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\jquery.js" afterPath="$PROJECT_DIR$/script/libs/jquery.js" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\logo.jpg" afterPath="$PROJECT_DIR$/ui/logo.jpg" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\logo.png" afterPath="$PROJECT_DIR$/ui/logo.png" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\logo.psd" afterPath="$PROJECT_DIR$/ui/logo.psd" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\logo_big.jpg" afterPath="$PROJECT_DIR$/ui/logo_big.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getDataFile.php" afterPath="$PROJECT_DIR$/getDataFile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getListFile.php" afterPath="$PROJECT_DIR$/getListFile.php" />
+      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\site\posts\AAA\AAAAACBBB.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\script\scriptAjaxPHP.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gerator/site/posts/Javascript/Instalando_JsDoc_2.html" afterPath="$PROJECT_DIR$/gerator/site/posts/Javascript/Instalando_JsDoc_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/ManagerFile.js" afterPath="$PROJECT_DIR$/script/ManagerFile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/Sotero.js" afterPath="$PROJECT_DIR$/script/Sotero.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gerator/index.php" afterPath="$PROJECT_DIR$/gerator/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gerator/site/index.html" afterPath="$PROJECT_DIR$/gerator/site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gerator/site/posts/AAA/index.html" afterPath="$PROJECT_DIR$/gerator/site/posts/AAA/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gerator/site/posts/Javascript/index.html" afterPath="$PROJECT_DIR$/gerator/site/posts/Javascript/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gerator/posts/instalando_jsdoc.txt" afterPath="$PROJECT_DIR$/gerator/posts/instalando_jsdoc.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gerator/posts/instalando_jsdoc2.txt" afterPath="$PROJECT_DIR$/gerator/posts/instalando_jsdoc2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/saveFilesPost.php" afterPath="$PROJECT_DIR$/saveFilesPost.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/scriptMain.js" afterPath="$PROJECT_DIR$/script/scriptMain.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gerator/site/posts/style/style_pages.css" afterPath="$PROJECT_DIR$/gerator/site/posts/style/style_pages.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gerator/style/style_pages.css" afterPath="$PROJECT_DIR$/gerator/style/style_pages.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylepage.css" afterPath="$PROJECT_DIR$/css/stylepage.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -49,64 +41,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="6" selection-start="930" selection-end="930" vertical-scroll-proportion="0.21220528" vertical-offset="255" max-vertical-offset="1972">
-              <folding />
+            <state line="69" column="41" selection-start="2136" selection-end="2149" vertical-scroll-proportion="-14.0" vertical-offset="809" max-vertical-offset="2091">
+              <folding>
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#div#1;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylepage.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/stylepage.css">
+      <file leaf-file-name="saveFilesPost.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/saveFilesPost.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="202" column="43" selection-start="2903" selection-end="2903" vertical-scroll-proportion="0.0" vertical-offset="3078" max-vertical-offset="3825">
+            <state line="25" column="2" selection-start="635" selection-end="635" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sotero.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Sotero.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script/Sotero.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="23" selection-start="2372" selection-end="2372" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1921">
+            <state line="125" column="29" selection-start="3617" selection-end="3617" vertical-scroll-proportion="0.4477401" vertical-offset="1808" max-vertical-offset="5032">
               <folding>
-                <marker date="1493942464553" expanded="true" signature="2904:2916" placeholder="..." />
+                <marker date="1494460071059" expanded="false" signature="7225:7237" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scriptMain.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/scriptMain.js">
+      <file leaf-file-name="getDataFile.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getDataFile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="35" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="23" column="32" selection-start="521" selection-end="535" vertical-scroll-proportion="-7.4615383" vertical-offset="197" max-vertical-offset="918">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gerator/index.php">
+      <file leaf-file-name="instalando_jsdoc.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gerator/posts/instalando_jsdoc.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="203" column="8" selection-start="5817" selection-end="5817" vertical-scroll-proportion="-18.23077" vertical-offset="2977" max-vertical-offset="9656">
-              <folding>
-                <marker date="1493911991695" expanded="true" signature="9613:10095" placeholder="..." />
-                <marker date="1493911991695" expanded="true" signature="9632:10085" placeholder="..." />
-                <marker date="1493911991695" expanded="true" signature="9703:10077" placeholder="..." />
-                <marker date="1493911991695" expanded="true" signature="12393:12916" placeholder="..." />
-                <marker date="1493911991695" expanded="true" signature="12412:12906" placeholder="..." />
-                <marker date="1493911991695" expanded="true" signature="12491:12899" placeholder="..." />
-              </folding>
+            <state line="16" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManagerFile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/ManagerFile.js">
+      <file leaf-file-name="instalando_jsdoc2.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gerator/posts/instalando_jsdoc2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="44" selection-start="1539" selection-end="1539" vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="1275">
+            <state line="8" column="0" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
@@ -129,21 +121,22 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/getFilesPosts.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/gerator/posts/instalando_jsdoc2.txt" />
         <option value="$PROJECT_DIR$/gerator/ScriptAjaxPHP.js" />
         <option value="$PROJECT_DIR$/functionUtil.php" />
         <option value="$PROJECT_DIR$/scriptAjaxPHP.js" />
-        <option value="$PROJECT_DIR$/getDataFile.php" />
-        <option value="$PROJECT_DIR$/getListFile.php" />
         <option value="$PROJECT_DIR$/scriptMain.js" />
         <option value="$PROJECT_DIR$/gerator/style/style_pages.css" />
         <option value="$PROJECT_DIR$/gerator/index.php" />
         <option value="$PROJECT_DIR$/css/stylepage.css" />
         <option value="$PROJECT_DIR$/script/scriptAjaxPHP.js" />
-        <option value="$PROJECT_DIR$/script/scriptMain.js" />
-        <option value="$PROJECT_DIR$/saveFilesPost.php" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/getListFile.php" />
+        <option value="$PROJECT_DIR$/gerator/posts/instalando_jsdoc.txt" />
         <option value="$PROJECT_DIR$/script/ManagerFile.js" />
+        <option value="$PROJECT_DIR$/gerator/posts/instalando_jsdoc2.txt" />
+        <option value="$PROJECT_DIR$/getDataFile.php" />
+        <option value="$PROJECT_DIR$/saveFilesPost.php" />
+        <option value="$PROJECT_DIR$/script/scriptMain.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/script/Sotero.js" />
       </list>
     </option>
@@ -197,6 +190,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -289,90 +283,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoteroGen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoteroGen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoteroGen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoteroGen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoteroGen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoteroGen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="about" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoteroGen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoteroGen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -393,7 +303,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -515,21 +424,137 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="11" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1870">
+        <state line="86" column="39" selection-start="2578" selection-end="2578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2006">
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stylepage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="202" column="43" selection-start="2903" selection-end="2903" vertical-scroll-proportion="0.0" vertical-offset="3434" max-vertical-offset="3825">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/Sotero.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="19" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1989">
+          <folding>
+            <marker date="1494460071059" expanded="false" signature="7225:7237" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/scriptMain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="33" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gerator/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="203" column="8" selection-start="5817" selection-end="5817" vertical-scroll-proportion="0.0" vertical-offset="2977" max-vertical-offset="9656">
+          <folding>
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/ManagerFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="44" selection-start="1539" selection-end="1539" vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="6" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1972">
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stylepage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="202" column="43" selection-start="2903" selection-end="2903" vertical-scroll-proportion="0.0" vertical-offset="3434" max-vertical-offset="3825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/Sotero.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="23" selection-start="2372" selection-end="2372" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1921">
+          <folding>
+            <marker date="1494460071059" expanded="false" signature="7225:7237" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/scriptMain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="35" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gerator/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="203" column="8" selection-start="5817" selection-end="5817" vertical-scroll-proportion="0.0" vertical-offset="2977" max-vertical-offset="9656">
+          <folding>
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/ManagerFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="44" selection-start="1539" selection-end="1539" vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="11" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1870">
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/stylepage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="195" column="10" selection-start="2793" selection-end="2793" vertical-scroll-proportion="0.0" vertical-offset="3315" max-vertical-offset="3451">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/scriptAjaxPHP.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="111" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.0" vertical-offset="303" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>
@@ -545,27 +570,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="36" selection-start="2255" selection-end="2255" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="9656">
           <folding>
-            <marker date="1493911991695" expanded="true" signature="9613:10095" placeholder="..." />
-            <marker date="1493911991695" expanded="true" signature="9632:10085" placeholder="..." />
-            <marker date="1493911991695" expanded="true" signature="9703:10077" placeholder="..." />
-            <marker date="1493911991695" expanded="true" signature="12393:12916" placeholder="..." />
-            <marker date="1493911991695" expanded="true" signature="12412:12906" placeholder="..." />
-            <marker date="1493911991695" expanded="true" signature="12491:12899" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functionUtil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="42" selection-start="397" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="425">
-          <folding />
-        </state>
+        <state line="15" column="42" selection-start="397" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="82" column="58" selection-start="2390" selection-end="2390" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -583,16 +613,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/getDataFile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="12" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/scriptAjaxPHP.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="10" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="969">
-          <folding />
-        </state>
+        <state line="3" column="12" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="901" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script/scriptMain.js">
@@ -606,27 +627,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="57" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="9656">
           <folding>
-            <marker date="1493911991695" expanded="true" signature="9613:10095" placeholder="..." />
-            <marker date="1493911991695" expanded="true" signature="9632:10085" placeholder="..." />
-            <marker date="1493911991695" expanded="true" signature="9703:10077" placeholder="..." />
-            <marker date="1493911991695" expanded="true" signature="12393:12916" placeholder="..." />
-            <marker date="1493911991695" expanded="true" signature="12412:12906" placeholder="..." />
-            <marker date="1493911991695" expanded="true" signature="12491:12899" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functionUtil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="42" selection-start="397" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="425">
-          <folding />
-        </state>
+        <state line="15" column="42" selection-start="397" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="82" column="58" selection-start="2390" selection-end="2390" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -644,16 +670,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/getDataFile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="27" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/scriptAjaxPHP.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="969">
-          <folding />
-        </state>
+        <state line="31" column="27" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="901" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script/scriptMain.js">
@@ -667,27 +684,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="57" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="9656">
           <folding>
-            <marker date="1493911991695" expanded="true" signature="9613:10095" placeholder="..." />
-            <marker date="1493911991695" expanded="true" signature="9632:10085" placeholder="..." />
-            <marker date="1493911991695" expanded="true" signature="9703:10077" placeholder="..." />
-            <marker date="1493911991695" expanded="true" signature="12393:12916" placeholder="..." />
-            <marker date="1493911991695" expanded="true" signature="12412:12906" placeholder="..." />
-            <marker date="1493911991695" expanded="true" signature="12491:12899" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functionUtil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="42" selection-start="397" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="425">
-          <folding />
-        </state>
+        <state line="15" column="42" selection-start="397" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="29" selection-start="2065" selection-end="2073" vertical-scroll-proportion="0.0" vertical-offset="928" max-vertical-offset="1649">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -698,19 +720,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gerator/posts/instalando_jsdoc2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.20844686" vertical-offset="0" max-vertical-offset="734" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script/libs/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="734" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getListFile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="71" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.3398058" vertical-offset="435" max-vertical-offset="1156" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gerator/style/style_pages.css">
@@ -720,87 +732,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functionUtil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="42" selection-start="397" selection-end="428" vertical-scroll-proportion="0.35367545" vertical-offset="0" max-vertical-offset="721">
-          <folding />
-        </state>
+        <state line="15" column="42" selection-start="397" selection-end="428" vertical-scroll-proportion="0.35367545" vertical-offset="0" max-vertical-offset="721" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getDataFile.php">
+    <entry file="file://$PROJECT_DIR$/script/ManagerFile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.7295423" vertical-offset="171" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/scriptAjaxPHP.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="747">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/stylepage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="202" column="43" selection-start="2903" selection-end="2903" vertical-scroll-proportion="0.0" vertical-offset="3078" max-vertical-offset="3825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gerator/posts/instalando_jsdoc.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/saveFilesPost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="303" selection-end="303" vertical-scroll-proportion="0.28294036" vertical-offset="0" max-vertical-offset="721">
+        <state line="45" column="25" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.3172691" vertical-offset="528" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gerator/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="203" column="8" selection-start="5817" selection-end="5817" vertical-scroll-proportion="-18.23077" vertical-offset="2977" max-vertical-offset="9656">
+        <state line="203" column="8" selection-start="5817" selection-end="5817" vertical-scroll-proportion="0.6694915" vertical-offset="2977" max-vertical-offset="9656">
           <folding>
-            <marker date="1493911991695" expanded="true" signature="9613:10095" placeholder="..." />
-            <marker date="1493911991695" expanded="true" signature="9632:10085" placeholder="..." />
-            <marker date="1493911991695" expanded="true" signature="9703:10077" placeholder="..." />
-            <marker date="1493911991695" expanded="true" signature="12393:12916" placeholder="..." />
-            <marker date="1493911991695" expanded="true" signature="12412:12906" placeholder="..." />
-            <marker date="1493911991695" expanded="true" signature="12491:12899" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493911991695" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/ManagerFile.js">
+    <entry file="file://$PROJECT_DIR$/getListFile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="44" selection-start="1539" selection-end="1539" vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="1275">
+        <state line="54" column="36" selection-start="1585" selection-end="1585" vertical-scroll-proportion="1.2732316" vertical-offset="0" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stylepage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="202" column="43" selection-start="2903" selection-end="2903" vertical-scroll-proportion="0.47657296" vertical-offset="3078" max-vertical-offset="3825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gerator/posts/instalando_jsdoc2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="476">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script/scriptMain.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="35" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="747">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/Sotero.js">
+    <entry file="file://$PROJECT_DIR$/saveFilesPost.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="23" selection-start="2372" selection-end="2372" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1921">
-          <folding>
-            <marker date="1493942464553" expanded="true" signature="2904:2916" placeholder="..." />
-          </folding>
+        <state line="25" column="2" selection-start="635" selection-end="635" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getDataFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="32" selection-start="521" selection-end="535" vertical-scroll-proportion="-7.4615383" vertical-offset="197" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gerator/posts/instalando_jsdoc.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="510">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="6" selection-start="930" selection-end="930" vertical-scroll-proportion="0.21220528" vertical-offset="255" max-vertical-offset="1972">
-          <folding />
+        <state line="69" column="41" selection-start="2136" selection-end="2149" vertical-scroll-proportion="-14.0" vertical-offset="809" max-vertical-offset="2091">
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/Sotero.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="29" selection-start="3617" selection-end="3617" vertical-scroll-proportion="0.4477401" vertical-offset="1808" max-vertical-offset="5032">
+          <folding>
+            <marker date="1494460071059" expanded="false" signature="7225:7237" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

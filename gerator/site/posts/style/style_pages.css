@@ -83,7 +83,7 @@ article{
 	font-size: 40px;
 }
 
-.post .subtitle{
+.subtitle{
 	color: #000;
 	font-size: 30px;
 }
@@ -166,3 +166,19 @@ footer .info{
 .listpost{
 	list-style-type: disc;
 }
+
+
+
+.img-large{
+	width: 70%;
+	margin-left: 15%;
+    margin-bottom:10px;	
+}
+
+.img-little{
+	width: 50%;
+	margin-left: 25%;
+    margin-bottom:10px;	
+}
+
+

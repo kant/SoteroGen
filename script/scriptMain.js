@@ -5,6 +5,12 @@ $("body").ready(function(){
     app.showListFiles();
     app.setFunticionTextAndCodeMode();
     app.setFunticionsButtonsMenu();
+
+
+    $('input[type=file]').change(function () {
+        console.log(this.files[0]);
+    });
+
 });
 
 

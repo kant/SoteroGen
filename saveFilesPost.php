@@ -8,11 +8,11 @@ $date = $_POST["date"];
 $abstract = $_POST["abstract"];
 $content = $_POST["content"];
 
-$filecontent = "title : ".$title."".PHP_EOL;
-$filecontent .= "tag : ".$tag."".PHP_EOL;
-$filecontent .= "date : ".$date."".PHP_EOL;
-$filecontent .= "abstract : ".$abstract."".PHP_EOL;
-$filecontent .= "content : ".$content."".PHP_EOL;
+$filecontent = "title : ".utf8_decode( $title )."".PHP_EOL;
+$filecontent .= "tag : ".utf8_decode( $tag )."".PHP_EOL;
+$filecontent .= "date : ". utf8_decode( $date )."".PHP_EOL;
+$filecontent .= "abstract : ". utf8_decode($abstract )."".PHP_EOL;
+$filecontent .= "content : ". utf8_decode( $content )."".PHP_EOL;
 
 
 $myfile = fopen($filepath, "w");
@@ -20,5 +20,7 @@ $myfile = fopen($filepath, "w");
 fwrite($myfile, $filecontent);
 //close file
 fclose($myfile);
+
+echo $content
 
 ?>

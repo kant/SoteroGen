@@ -43,6 +43,7 @@ ManagerFile.prototype.saveFile = function(filepath, title, tag, date,abstract, c
     var jqxhr = $.post( "saveFilesPost.php",{filepath:filepath, title:title, tag:tag, date:date, abstract:abstract, content:content}, function() {
     })
     .done(function(data){
+         console.log(data)
          app.showListFiles();
     })
     .fail(function() {
