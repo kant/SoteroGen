@@ -21,3 +21,14 @@ alfa
 * Start a new post, edit a old post and delete any post (yet in developmenting)
 * After modification, click in gereate (you can change folder you site)
 
+![SOTEROgen](https://github.com/LuisAraujo/SoteroGen/blob/master/screen01.jpg?raw=true)
+
+![SOTEROgen](https://github.com/LuisAraujo/SoteroGen/blob/master/screen02.jpg?raw=true)
+
+![SOTEROgen](https://github.com/LuisAraujo/SoteroGen/blob/master/screen03.jpg?raw=true)
+
+![SOTEROgen](https://github.com/LuisAraujo/SoteroGen/blob/master/screen04.jpg?raw=true)
+
+![SOTEROgen](https://github.com/LuisAraujo/SoteroGen/blob/master/screen05.jpg?raw=true)
+
+![SOTEROgen](https://github.com/LuisAraujo/SoteroGen/blob/master/screen06.jpg?raw=true)

@@ -27,6 +27,31 @@
 <img id="logo" src="ui/logo.png">
 SteroGen
 </header>
+<div id="panel-setting">
+
+    <div class="title">
+        <img id="logo-title" src="ui/logo.png">
+        Configuração
+        <img id="bt-close" src="ui/icon-close.png">
+    </div>
+    <div class="container">
+    <div>
+        <span class="title-inp">Diretório do Blog</span>
+        <div class="inp-text">
+            <input id="inp-text-dirsite" type="text" >
+        </div>
+    </div>
+    <div>
+        <span class="title-inp">Estilo</span>
+        <div class="inp-text">
+            <input id="inp-text-stylesite" type="text" >
+        </div>
+    </div>
+    </div>
+
+</div>
+
+
 <div id="main-bar">
     <span id="bt-newpost">Novo <u>P</u>ost</span>
     <span id="bt-savepost"><u>S</u>alvar Post</span>
@@ -40,8 +65,7 @@ SteroGen
       <div class="item-head-list-file"> <img src="ui/icon_folder.png">All Posts</div>
   </div>
   <div id="list-file">
-
-     <!--  <div class="item-list-file active"> <img src="icon_li.png">Instalando o JsDoc</div> -->
+    
   </div>
 </div>
 <div id="content-main">
@@ -83,18 +107,26 @@ SteroGen
 
 
         <div style="width: 100%">
-            <input style="display: none" id="inp-image" type="file">
+
+            <form id="form-inp-image" action="php/saveImage.php" method="post" enctype="multipart/form-data">
+                <input style="display: none" id="inp-image" name="inp-image" type="file">
+                <input style="display: none" id="name-image" name="name-image" type="text">
+                <input  style="display: none" type="submit" value="Upload Image" name="submit">
+            </form>
+
+
+
+
             <span class="title-inp">Texto</span>
             <div id="menu-edit">
                 <img id="bt-textmode" src="ui/icon_text.png" style="margin-right: 10px">
                 <img id="bt-codemode" src="ui/icon_code.png" style="margin-right: 10px">
                 <img id="bt-bold" src="ui/icon_bold.png">
                 <img  id="bt-italic" src="ui/icon_italic.png">
-                <img id="bt-setimage" src="ui/icon_img.png">
-
-                <img id="bt-setcode" src="ui/icon_code2.png">
-                <img id="bt-settitle" src="ui/icon_title.png">
+				<img id="bt-settitle" src="ui/icon_title.png">
+                <img id="bt-setimage" src="ui/icon_img.png">             
                 <img id="bt-setlink" src="ui/icon_link.png">
+				<img id="bt-setcode" src="ui/icon_code2.png">
 
 
             </div>

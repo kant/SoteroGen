@@ -1,6 +1,6 @@
 <?php
 
-$dir = "gerator/posts";
+$dir = "../gerator/posts";
 
 $arrFiles = array();
 //use for return a json format
@@ -35,7 +35,7 @@ if (file_exists($dir)){
     foreach($files as $file) {
 
         $lastModified = date('F d Y, H:i:s', filemtime($dir."/".$file)  );
-        $filename = str_replace("../", "", $dir)."/".$file;
+        $filename = $dir."/".$file;
         array_push($arrFiles, $filename);
 
         $myfile = fopen($filename, "r") or die("Unable to open file!");
@@ -61,3 +61,5 @@ if (file_exists($dir)){
     echo json_encode($jsonReturn, JSON_PRETTY_PRINT);
 
 }
+
+?>

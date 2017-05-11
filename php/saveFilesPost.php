@@ -15,12 +15,12 @@ $filecontent .= "abstract : ". utf8_decode($abstract )."".PHP_EOL;
 $filecontent .= "content : ". utf8_decode( $content )."".PHP_EOL;
 
 
-$myfile = fopen($filepath, "w");
+$myfile = fopen("../".$filepath, "w");
 //write in file
 fwrite($myfile, $filecontent);
 //close file
 fclose($myfile);
 
-echo $content
+echo $filepath
 
 ?>

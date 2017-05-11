@@ -1,9 +1,13 @@
 <?php
 header ('Content-type: text/html; charset=UTF-8');
-include "../functionUtil.php";
+include "../php/functionUtil.php";
+
+session_start();
+
 
 $dir = "posts";
-$dirMainSite = "site";
+$dirMainSite = $_POST["dirsite"];
+$_SESSION['dirsite'] = $dirMainSite;
 $nameYourBlog = "Luis Araujo";
 
 createInitialDirectories();
@@ -132,7 +136,7 @@ function openAllFiles($arrFiles){
 
 
 function createInitialDirectories(){
-	global $dirMainSite; 
+	$dirMainSite = $_SESSION['dirsite'] ;
 	
 	if (!file_exists($dirMainSite)) {
 		//create all directory
@@ -146,7 +150,7 @@ function createInitialDirectories(){
 }
 
 function createHomePage($posts){
-	global $dirMainSite; 
+    $dirMainSite = $_SESSION['dirsite'] ;
 	
 		//create home file
 		$filename = $dirMainSite."/index.html";	
@@ -156,7 +160,7 @@ function createHomePage($posts){
 }
 
 function copyAllImagens(){
-		global $dirMainSite;  
+    $dirMainSite = $_SESSION['dirsite'] ;
 	
 		
 		//copy style files    	
@@ -193,7 +197,7 @@ function copyAllImagens(){
 
 //create post
 function createPostFiles($post){
-	global $dirMainSite;  
+    $dirMainSite = $_SESSION['dirsite'] ;
 
 	$url = getURLReplaced($post->title, $post->tags);
 	$newtag =  getStringReplaced($post->tags);

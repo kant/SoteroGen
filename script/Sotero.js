@@ -1,9 +1,24 @@
 Sotero = function(){
-
+    this.dirSite = "";
+    this.currentStylePage = "";
     this.currentFile = "";
     this.managerFile = new ManagerFile();
     this.modeeditor = "text";
+
+    $('#bt-textmode').hide();
+    $('#bt-codemode').show();
+    $("#inp-text-content").hide();
+    $("#inp-text-content2").show();
+
+    this.managerFile.getSetting();
+
 }
+
+
+Sotero.prototype.showInputs = function(){
+    $("#content-edit").show();
+};
+
 
 Sotero.prototype.getManagerFile = function(){
     return this.managerFile;
@@ -11,6 +26,11 @@ Sotero.prototype.getManagerFile = function(){
 
 Sotero.prototype.setCurrentFile = function(filepath){
     this.currentFile = filepath;
+}
+
+
+Sotero.prototype.getCurrentFile = function(){
+    return this.currentFile;
 }
 
 Sotero.prototype.showListFiles = function(){
@@ -29,6 +49,7 @@ Sotero.prototype.showListFiles = function(){
            filepath = $(this).attr("filepath");
            app.setCurrentFile(filepath);
            app.getManagerFile().getDataFiles( filepath );
+           app.showInputs();
        });
 
    } );
@@ -62,10 +83,35 @@ Sotero.prototype.setFunticionTextAndCodeMode = function (){
     $("#bt-setimage").click(function(){
         if(app.modeeditor == "code"){
             $("#inp-image").trigger('click');
-            var path = "teste.jpg"
-            app.insertAtCaret("<img src='"+path+"'>");
+
         }
     });
+
+    $("#inp-image").change(function(e){
+        namefile =  app.getCurrentFile().split("/");
+        namefile = namefile[namefile.length-1];
+        namefile = namefile.split(".")[0];
+        $("#name-image").val( namefile );
+        $("#form-inp-image").trigger("submit");
+    });
+
+    $( '#form-inp-image' ).submit( function( e ) {
+            $.ajax({
+                url: 'php/saveImage.php?',
+                type: 'POST',
+                data: new FormData( this ),
+                processData: false,
+                contentType: false,
+                success: function(data){
+                    app.insertAtCaret("<img src='../../images/"+data+"'>");
+                },
+                error: function(data){
+                    console.log(data);
+                }
+            });
+
+            e.preventDefault();
+        } );
 
     $("#bt-bold").click(function(){
         if(app.modeeditor == "code")
@@ -112,8 +158,6 @@ Sotero.prototype.setFunticionTextAndCodeMode = function (){
 
         //se não for numero
         if ( isNaN( $("#inp-text-date").val()[ $("#inp-text-date").val().length-1] )   ){
-
-            console.log($("#inp-text-date").val()[$("#inp-text-date").val().length-1]);
 
             $("#inp-text-date").val( $("#inp-text-date").val().substr(0, $("#inp-text-date").val().length-1) );
         }
@@ -238,13 +282,17 @@ Sotero.prototype.setFunticionsButtonsMenu = function(){
 
 
     $("#bt-settings").click(function(){
-        app.showScreenConfing();
+        app.showScreenConfing(true);
     });
     $("#bt-createblog").click(function(){
         app.getManagerFile().createBlog();
     });
     $("#bt-about").click(function(){
         app.showScreenAbout();
+    });
+
+    $("#bt-close").click(function(){
+        app.showScreenConfing(false);
     });
 
 };
@@ -255,15 +303,24 @@ Sotero.prototype.setContentInFrameEditor= function(content){
     var ifrm = document.getElementById('inp-text-content2');
     ifrm = ifrm.contentWindow || ifrm.contentDocument.document || ifrm.contentDocument;
     ifrm.document.open();
-    ifrm.document.write("<html><head> <link href='gerator/style/style_pages.css' rel='stylesheet'></head> <body style='padding:20px'>" +
+
+
+    var find = "../../images/";
+    var re = new RegExp(find, 'g');
+    content = content.replace(re,  "gerator/"+app.dirSite+"/images/");
+
+
+    ifrm.document.write(
+        "<html><head> <link href='gerator/style/style_pages.css' rel='stylesheet'></head> <body style='padding:20px'>" +
         "<div class='abstract'>"+content+"</div></body></html>");
+
     ifrm.document.close();
 
 }
 
 Sotero.prototype.savePost = function(){
     if(app.currentFile!="newfile"){
-        app.getManagerFile().saveFile(app.currentFile, $("#inp-text-title").val(), $("#inp-text-tag").val(),
+        app.getManagerFile().saveFile("gerator/posts/"+$("#inp-text-title").val().replace(" ", "")+".txt", $("#inp-text-title").val(), $("#inp-text-tag").val(),
             $("#inp-text-date").val(),  $("#inp-text-abstract").val(), $("#inp-text-content").val());
     }else{
         app.getManagerFile().saveFile("gerator/posts/"+$("#inp-text-title").val().replace(" ", "")+".txt" , $("#inp-text-title").val(), $("#inp-text-tag").val(),
@@ -274,18 +331,37 @@ Sotero.prototype.savePost = function(){
 
 
 Sotero.prototype.showScreenAbout = function(){
-    alert("about")
+    alert("about");
 };
 
 
 
-Sotero.prototype.showScreenConfing = function(){
-    alert("config")
+Sotero.prototype.showScreenConfing = function(mode){
+    if(mode){
+        $("#panel-setting").show();
+    }else{
+        $("#panel-setting").hide();
+    }
+
 }
 
 Sotero.prototype.createNewPost = function(){
 
     app.setCurrentFile("newfile");
-    $("#list-file").append('<div class="item-list-file" filepath=""><img src="ui/icon_li.png">Novo Post</div>');
+    $("#list-file").append('<div class="item-list-file" id="item-new-post" filepath=""><img src="ui/icon_li.png">Novo Post</div>');
+
+    $("#item-new-post").click(function(){
+        $("#inp-text-title").val("");
+        $("#inp-text-tag").val("");
+        $("#inp-text-date").val("");
+        $("#inp-text-abstract").val("");
+        $("#inp-text-content").val("");
+        app.setContentInFrameEditor("");
+
+        app.showInputs();
+    });
+
+    $("#item-new-post").trigger("click");
+
 
 }

@@ -1,5 +1,0 @@
-title : asdas
-tag : aaa
-date : a
-abstract : a
-content : aasdasada

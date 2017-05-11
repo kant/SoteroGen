@@ -6,11 +6,6 @@ $("body").ready(function(){
     app.setFunticionTextAndCodeMode();
     app.setFunticionsButtonsMenu();
 
-
-    $('input[type=file]').change(function () {
-        console.log(this.files[0]);
-    });
-
 });
 
 
