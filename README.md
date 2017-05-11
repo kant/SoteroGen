@@ -10,10 +10,10 @@ SOTEROgen - Static site gerator with PHP
 * You can change theme, if you know about CSS and HTML
 * Usa Bootstarp
 
-### Version
+# Version
 alfa
 
-### How use
+# How use
 
 * Download a local server for run PHP, like XAMP
 * Download SoteroGen and move for your sever folder
@@ -21,14 +21,30 @@ alfa
 * Start a new post, edit a old post and delete any post (yet in developmenting)
 * After modification, click in gereate (you can change folder you site)
 
-![SOTEROgen](https://github.com/LuisAraujo/SoteroGen/blob/master/screen01.jpg?raw=true)
 
-![SOTEROgen](https://github.com/LuisAraujo/SoteroGen/blob/master/screen02.jpg?raw=true)
+# Screens of SOTEROGen
 
-![SOTEROgen](https://github.com/LuisAraujo/SoteroGen/blob/master/screen03.jpg?raw=true)
+###Initial Screen
+![SOTEROgen](https://raw.githubusercontent.com/LuisAraujo/SoteroGen/master/screen01.png)
 
-![SOTEROgen](https://github.com/LuisAraujo/SoteroGen/blob/master/screen04.jpg?raw=true)
+###Create New Post
+![SOTEROgen](https://raw.githubusercontent.com/LuisAraujo/SoteroGen/master/screen02.png)
 
-![SOTEROgen](https://github.com/LuisAraujo/SoteroGen/blob/master/screen05.jpg?raw=true)
+###Edit Mode
+![SOTEROgen](https://raw.githubusercontent.com/LuisAraujo/SoteroGen/master/screen03.png)
 
-![SOTEROgen](https://github.com/LuisAraujo/SoteroGen/blob/master/screen06.jpg?raw=true)
+###View Mode
+![SOTEROgen](https://raw.githubusercontent.com/LuisAraujo/SoteroGen/master/screen04.png)
+
+
+#Screens of Blog gerated
+
+###Home Page of Blog
+![Blog gerated](https://raw.githubusercontent.com/LuisAraujo/SoteroGen/master/screen05.png)
+
+###Page of Post
+![Blog gerated](https://raw.githubusercontent.com/LuisAraujo/SoteroGen/master/screen06.png)
+
+
+
+
