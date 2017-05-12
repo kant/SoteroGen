@@ -1,3 +1,2 @@
-dirsite : ../site3
-currentstyle : "normal"
-
+dirsite : ../site2 
+stylesite : normal2

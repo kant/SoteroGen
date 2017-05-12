@@ -15,6 +15,20 @@ Sotero = function(){
 }
 
 
+Sotero.prototype.getDirSite = function(){
+    return this.dirSite;
+}
+Sotero.prototype.setDirSite = function(dirSite){
+    this.dirSite = dirSite;
+}
+
+Sotero.prototype.getCurrentStyle = function(){
+    return this.currentStylePage;
+}
+Sotero.prototype.setCurrentStyle = function(currentStyle){
+    this.currentStylePage = currentStyle;
+}
+
 Sotero.prototype.showInputs = function(){
     $("#content-edit").show();
 };
@@ -103,7 +117,12 @@ Sotero.prototype.setFunticionTextAndCodeMode = function (){
                 processData: false,
                 contentType: false,
                 success: function(data){
-                    app.insertAtCaret("<img src='../../images/"+data+"'>");
+                    if(data != "no-dir"){
+                        console.log(data);
+                        app.insertAtCaret("<img src='../../images/"+data+"'>");
+                    }else{
+                        console.log("crie o blog antes");
+                    }
                 },
                 error: function(data){
                     console.log(data);
@@ -253,7 +272,7 @@ Sotero.prototype.setFunticionsButtonsMenu = function(){
         //ctrl+b
         else if(e.ctrlKey && (e.which == 66)) {
             e.preventDefault();
-            app.getManagerFile().createBlog();
+            app.getManagerFile().createBlog(true);
             return false;
         }
     });
@@ -280,21 +299,24 @@ Sotero.prototype.setFunticionsButtonsMenu = function(){
         app.savePost();
     });
 
-
     $("#bt-settings").click(function(){
         app.showScreenConfing(true);
     });
     $("#bt-createblog").click(function(){
-        app.getManagerFile().createBlog();
+        app.getManagerFile().createBlog(true);
     });
     $("#bt-about").click(function(){
         app.showScreenAbout();
     });
 
-    $("#bt-close").click(function(){
+    $("#bt-closesetting").click(function(){
         app.showScreenConfing(false);
     });
 
+    $("#bt-savesetting").click(function(){
+        app.getManagerFile().setSetting( $("#inp-text-dirsite").val(), $("#inp-text-stylesite").val());
+        app.showScreenConfing(false);
+    })
 };
 
 
@@ -337,11 +359,16 @@ Sotero.prototype.showScreenAbout = function(){
 
 
 Sotero.prototype.showScreenConfing = function(mode){
-    if(mode){
-        $("#panel-setting").show();
-    }else{
-        $("#panel-setting").hide();
-    }
+    //update data of setting
+    this.getManagerFile().getSetting(function(){
+        if(mode){
+            $("#inp-text-dirsite").val( app.getDirSite() );
+            $("#inp-text-stylesite").val( app.getCurrentStyle() );
+            $("#panel-setting").show();
+        }else{
+            $("#panel-setting").hide();
+        }
+    });
 
 }
 

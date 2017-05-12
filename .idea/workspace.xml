@@ -2,48 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70de3e99-f543-4773-a3d3-6e26b01ce630" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/Roboto-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/getSetting.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/saveImage.php" />
-      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\posts\asdas.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\posts\instalando_jsdoc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\posts\instalando_jsdoc2.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\site\about\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\site\images\angry.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\site\images\crying-1.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\site\images\fb-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\site\images\git-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\site\images\happy-1.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\site\images\in-love.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\site\images\perfil.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\site\images\youtube-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\site\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\site\posts\AAA\Andreia_Pinheiro.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\site\posts\AAA\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\site\posts\javascript\Instalando_JsDoc_2.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\site\posts\javascript\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\site\posts\style\style_pages.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\site\style\style_home.css" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\functionUtil.php" afterPath="$PROJECT_DIR$/php/functionUtil.php" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\getDataFile.php" afterPath="$PROJECT_DIR$/php/getDataFile.php" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\getListFile.php" afterPath="$PROJECT_DIR$/php/getListFile.php" />
-      <change type="MOVED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\saveFilesPost.php" afterPath="$PROJECT_DIR$/php/saveFilesPost.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/icon_bold.png" afterPath="$PROJECT_DIR$/ui/icon_bold.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/icon_code.png" afterPath="$PROJECT_DIR$/ui/icon_code.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/icon_code2.png" afterPath="$PROJECT_DIR$/ui/icon_code2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/icon_folder.png" afterPath="$PROJECT_DIR$/ui/icon_folder.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/icon_img.png" afterPath="$PROJECT_DIR$/ui/icon_img.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/icon_italic.png" afterPath="$PROJECT_DIR$/ui/icon_italic.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/icon_li.png" afterPath="$PROJECT_DIR$/ui/icon_li.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/icon_link.png" afterPath="$PROJECT_DIR$/ui/icon_link.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/icon_text.png" afterPath="$PROJECT_DIR$/ui/icon_text.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/icon_title.png" afterPath="$PROJECT_DIR$/ui/icon_title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/setSetting.php" />
+      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\gerator\posts\PostTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\site3\about\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\site3\images\_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\site3\images\angry.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\site3\images\crying-1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\site3\images\fb-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\site3\images\git-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\site3\images\happy-1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\site3\images\in-love.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\site3\images\perfil.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\site3\images\youtube-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\site3\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\site3\posts\Test\Post_Test.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\site3\posts\Test\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\site3\posts\style\style_pages.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\fl43\Documents\GitHub\SoteroGen\site3\style\style_home.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/ManagerFile.js" afterPath="$PROJECT_DIR$/script/ManagerFile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/Sotero.js" afterPath="$PROJECT_DIR$/script/Sotero.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/getListFile.php" afterPath="$PROJECT_DIR$/php/getListFile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/getSetting.php" afterPath="$PROJECT_DIR$/php/getSetting.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gerator/index.php" afterPath="$PROJECT_DIR$/gerator/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/scriptMain.js" afterPath="$PROJECT_DIR$/script/scriptMain.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/saveImage.php" afterPath="$PROJECT_DIR$/php/saveImage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sotero_settings" afterPath="$PROJECT_DIR$/sotero_settings" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylepage.css" afterPath="$PROJECT_DIR$/css/stylepage.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -71,35 +54,18 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="14" selection-start="1489" selection-end="1489" vertical-scroll-proportion="-15.307693" vertical-offset="401" max-vertical-offset="2635">
-              <folding>
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#2;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#1;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#1;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stylepage.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/stylepage.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="249" column="18" selection-start="3596" selection-end="3596" vertical-scroll-proportion="-12.692307" vertical-offset="3903" max-vertical-offset="4641">
+            <state line="46" column="41" selection-start="1448" selection-end="1466" vertical-scroll-proportion="-14.653846" vertical-offset="401" max-vertical-offset="2686">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sotero.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Sotero.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/Sotero.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="360" column="11" selection-start="10042" selection-end="10042" vertical-scroll-proportion="0.759887" vertical-offset="5582" max-vertical-offset="6324">
+            <state line="17" column="27" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="6783">
               <folding>
-                <marker date="1494524795690" expanded="false" signature="8536:8548" placeholder="..." />
+                <marker date="1494549262372" expanded="true" signature="9274:9286" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -108,8 +74,42 @@
       <file leaf-file-name="ManagerFile.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/ManagerFile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="41" selection-start="612" selection-end="613" vertical-scroll-proportion="-9.076923" vertical-offset="155" max-vertical-offset="1649">
+            <state line="9" column="52" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getDataFile.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/getDataFile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="18" selection-start="245" selection-end="245" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="918">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getSetting.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/getSetting.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="17" selection-start="763" selection-end="763" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="748">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gerator/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="2" selection-start="165" selection-end="165" vertical-scroll-proportion="0.21610169" vertical-offset="0" max-vertical-offset="9741">
+              <folding>
+                <marker date="1494549696368" expanded="true" signature="9764:10246" placeholder="..." />
+                <marker date="1494549696368" expanded="true" signature="9783:10236" placeholder="..." />
+                <marker date="1494549696368" expanded="true" signature="9854:10228" placeholder="..." />
+                <marker date="1494549696368" expanded="true" signature="12544:13067" placeholder="..." />
+                <marker date="1494549696368" expanded="true" signature="12563:13057" placeholder="..." />
+                <marker date="1494549696368" expanded="true" signature="12642:13050" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,16 +144,18 @@
         <option value="$PROJECT_DIR$/saveFilesPost.php" />
         <option value="$PROJECT_DIR$/script/scriptMain.js" />
         <option value="$PROJECT_DIR$/saveImage.php" />
-        <option value="$PROJECT_DIR$/php/getListFile.php" />
         <option value="$PROJECT_DIR$/sotero_settings.txt" />
-        <option value="$PROJECT_DIR$/script/ManagerFile.js" />
-        <option value="$PROJECT_DIR$/gerator/index.php" />
-        <option value="$PROJECT_DIR$/php/saveImage.php" />
-        <option value="$PROJECT_DIR$/php/getSetting.php" />
         <option value="$PROJECT_DIR$/php/saveFilesPost.php" />
+        <option value="$PROJECT_DIR$/php/getListFile.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/stylepage.css" />
+        <option value="$PROJECT_DIR$/sotero_settings" />
+        <option value="$PROJECT_DIR$/php/setSetting.php" />
+        <option value="$PROJECT_DIR$/php/saveImage.php" />
         <option value="$PROJECT_DIR$/script/Sotero.js" />
+        <option value="$PROJECT_DIR$/script/ManagerFile.js" />
+        <option value="$PROJECT_DIR$/php/getSetting.php" />
+        <option value="$PROJECT_DIR$/gerator/index.php" />
       </list>
     </option>
   </component>
@@ -206,6 +208,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -282,7 +285,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -368,11 +370,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -404,11 +406,41 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="14" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stylepage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="249" column="18" selection-start="3596" selection-end="3596" vertical-scroll-proportion="0.0" vertical-offset="3903" max-vertical-offset="4641">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/Sotero.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="360" column="11" selection-start="10042" selection-end="10042" vertical-scroll-proportion="0.0" vertical-offset="5582" max-vertical-offset="6324">
+          <folding>
+            <marker date="1494549262372" expanded="true" signature="9274:9286" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/ManagerFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="41" selection-start="612" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="1649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/script/Sotero.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="125" column="29" selection-start="3617" selection-end="3617" vertical-scroll-proportion="0.0" vertical-offset="1808" max-vertical-offset="5032">
           <folding>
-            <marker date="1494524795690" expanded="false" signature="8536:8548" placeholder="..." />
+            <marker date="1494549262372" expanded="true" signature="9274:9286" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -416,15 +448,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="39" selection-start="2578" selection-end="2578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2006">
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -439,7 +463,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="19" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1989">
           <folding>
-            <marker date="1494524795690" expanded="false" signature="8536:8548" placeholder="..." />
+            <marker date="1494549262372" expanded="true" signature="9274:9286" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -455,12 +479,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="203" column="8" selection-start="5817" selection-end="5817" vertical-scroll-proportion="0.0" vertical-offset="2977" max-vertical-offset="9656">
           <folding>
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="9764:10246" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="9783:10236" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="9854:10228" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="12544:13067" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="12563:13057" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="12642:13050" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -475,15 +499,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="6" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1972">
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -498,7 +514,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="23" selection-start="2372" selection-end="2372" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1921">
           <folding>
-            <marker date="1494524795690" expanded="false" signature="8536:8548" placeholder="..." />
+            <marker date="1494549262372" expanded="true" signature="9274:9286" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -514,12 +530,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="203" column="8" selection-start="5817" selection-end="5817" vertical-scroll-proportion="0.0" vertical-offset="2977" max-vertical-offset="9656">
           <folding>
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="9764:10246" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="9783:10236" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="9854:10228" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="12544:13067" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="12563:13057" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="12642:13050" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -534,15 +550,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="11" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1870">
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -564,12 +572,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="36" selection-start="2255" selection-end="2255" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="9656">
           <folding>
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="9764:10246" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="9783:10236" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="9854:10228" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="12544:13067" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="12563:13057" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="12642:13050" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -577,15 +585,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="82" column="58" selection-start="2390" selection-end="2390" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -607,12 +607,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="57" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="9656">
           <folding>
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="9764:10246" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="9783:10236" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="9854:10228" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="12544:13067" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="12563:13057" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="12642:13050" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -620,15 +620,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="82" column="58" selection-start="2390" selection-end="2390" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -650,12 +642,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="57" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="9656">
           <folding>
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="9764:10246" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="9783:10236" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="9854:10228" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="12544:13067" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="12563:13057" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="12642:13050" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -663,15 +655,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="29" selection-start="2065" selection-end="2073" vertical-scroll-proportion="0.0" vertical-offset="928" max-vertical-offset="1649">
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -694,57 +678,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gerator/style/style_home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2839">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/getDataFile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9" selection-start="15" selection-end="15" vertical-scroll-proportion="0.023578363" vertical-offset="0" max-vertical-offset="918">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2839" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script/scriptMain.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="35" selection-start="162" selection-end="162" vertical-scroll-proportion="0.13654618" vertical-offset="0" max-vertical-offset="747">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/getSetting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="31" selection-start="66" selection-end="66" vertical-scroll-proportion="0.07073509" vertical-offset="0" max-vertical-offset="721">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/saveImage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="2" selection-start="791" selection-end="791" vertical-scroll-proportion="0.61303747" vertical-offset="0" max-vertical-offset="721">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/getListFile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="48" selection-start="364" selection-end="364" vertical-scroll-proportion="0.35367545" vertical-offset="0" max-vertical-offset="1190">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gerator/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="54" selection-start="595" selection-end="595" vertical-scroll-proportion="-13.076923" vertical-offset="102" max-vertical-offset="9724">
-          <folding>
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1494521064098" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -757,38 +697,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/stylepage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="249" column="18" selection-start="3596" selection-end="3596" vertical-scroll-proportion="-12.692307" vertical-offset="3903" max-vertical-offset="4641">
+        <state line="40" column="16" selection-start="531" selection-end="531" vertical-scroll-proportion="-9.230769" vertical-offset="440" max-vertical-offset="4913">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/getListFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="6" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.7798561" vertical-offset="614" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/setSetting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="2" selection-start="524" selection-end="524" vertical-scroll-proportion="0.5658807" vertical-offset="0" max-vertical-offset="721">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="14" selection-start="1489" selection-end="1489" vertical-scroll-proportion="-15.307693" vertical-offset="401" max-vertical-offset="2635">
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#form#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#0;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#3;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="46" column="41" selection-start="1448" selection-end="1466" vertical-scroll-proportion="-14.653846" vertical-offset="401" max-vertical-offset="2686">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/ManagerFile.js">
+    <entry file="file://$PROJECT_DIR$/php/saveImage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="41" selection-start="612" selection-end="613" vertical-scroll-proportion="-9.076923" vertical-offset="155" max-vertical-offset="1649">
+        <state line="15" column="10" selection-start="502" selection-end="502" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sotero_settings">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="747">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script/Sotero.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="360" column="11" selection-start="10042" selection-end="10042" vertical-scroll-proportion="0.759887" vertical-offset="5582" max-vertical-offset="6324">
+        <state line="17" column="27" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="6783">
           <folding>
-            <marker date="1494524795690" expanded="false" signature="8536:8548" placeholder="..." />
+            <marker date="1494549262372" expanded="true" signature="9274:9286" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/ManagerFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="52" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/getDataFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="18" selection-start="245" selection-end="245" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/getSetting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="17" selection-start="763" selection-end="763" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gerator/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="2" selection-start="165" selection-end="165" vertical-scroll-proportion="0.21610169" vertical-offset="0" max-vertical-offset="9741">
+          <folding>
+            <marker date="1494549696368" expanded="true" signature="9764:10246" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="9783:10236" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="9854:10228" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="12544:13067" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="12563:13057" placeholder="..." />
+            <marker date="1494549696368" expanded="true" signature="12642:13050" placeholder="..." />
           </folding>
         </state>
       </provider>

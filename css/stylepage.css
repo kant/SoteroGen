@@ -38,7 +38,7 @@ header{
 }
 
 
-#bt-close{
+#bt-closesetting{
     height: 20px;
     margin-left: 5px;
     float: right;
@@ -265,4 +265,20 @@ textarea{
     height: 30px;
     text-align: center;
     color: #1a1a1a;
+}
+
+.bt-default{
+    margin-top: 10px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #333333;
+    border: solid 1px #1a1a1a;
+    font-size: 13px;
+    text-align: center;
+    padding: 5px;
+}
+
+.bt-default:hover{
+    cursor: pointer;
+    background-color: #575757;
 }

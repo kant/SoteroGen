@@ -1,24 +1,35 @@
 ManagerFile = function(){ };
 
 
-ManagerFile.prototype.getSetting = function(filepath){
+ManagerFile.prototype.getSetting = function(callback){
 
-    var jqxhr = $.post( "php/getSetting.php",{filepath: filepath }, function() {
+    var jqxhr = $.post( "php/getSetting.php", function() {
     })
         .done(function(data){
             data_json = jQuery.parseJSON(data);
-
-            for(var i = 0; i< data_json.length; i++){
-                app.dirSite  = data_json[i]["dirsite"];
-                console.log(app.dirSite);
-                app.currentStyle  = data_json[i]["currentstyle"];
-            }
+            app.setDirSite(data_json[0]["dirsite"]);
+            app.setCurrentStyle(data_json[0]["stylesite"]);
+            if(callback!=undefined)
+                callback();
         })
         .fail(function() {
             alert( "error" );
         });
 };
 
+ManagerFile.prototype.setSetting = function(dirSite, currentStyle){
+    console.log(dirSite, currentStyle);
+    var jqxhr = $.post( "php/setSetting.php",{dirsite: dirSite, stylesite: currentStyle }, function() {
+    })
+        .done(function(data){
+            data_json = jQuery.parseJSON(data);
+            $("#inp-text-dirsite").val(data_json["dirsite"]);
+            $("#inp-text-stylesite").val(data_json["stylesite"]);
+        })
+        .fail(function() {
+            alert( "error" );
+        });
+};
 
 
 ManagerFile.prototype.getListFiles = function(callback){
@@ -76,12 +87,15 @@ ManagerFile.prototype.saveFile = function(filepath, title, tag, date,abstract, c
 
 
 
-ManagerFile.prototype.createBlog = function(){
+ManagerFile.prototype.createBlog = function(mode){
 
-    var jqxhr = $.post( "gerator/index.php", {dirsite: app.dirSite},  function() {
+    var jqxhr = $.post( "gerator/index.php", {dirsite: app.getDirSite()},  function() {
     })
         .done(function(data){
-            window.open("http://localhost/SoteroGen/gerator/"+app.dirSite,'_blank');
+            if(mode)
+                window.open("http://localhost/SoteroGen/gerator/"+app.getDirSite(),'_blank');
+
+            console.log(data);
         })
 
         .fail(function() {

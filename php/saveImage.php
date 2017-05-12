@@ -13,15 +13,20 @@ $imagetemp = $_FILES['inp-image']['tmp_name'];
 session_start();
 $imagePath = $_SESSION['dirsite']."/images/";
 
-if(is_uploaded_file($imagetemp)) {
-    if(move_uploaded_file($imagetemp, $imagePath . $_POST["name-image"]."_".$imagename  )) {
-        echo  $_POST["name-image"]."_".$imagename;
+if(!is_dir($imagePath)){
+    echo "no-dir";
+}else{
+    if(is_uploaded_file($imagetemp)) {
+        if(move_uploaded_file($imagetemp, $imagePath . $_POST["name-image"]."_".$imagename  )) {
+            echo  $_POST["name-image"]."_".$imagename;
+        }
+        else {
+            echo "Failed to move your image.";
+        }
     }
     else {
-        echo "Failed to move your image.";
+        echo "Failed to upload your image.";
     }
 }
-else {
-    echo "Failed to upload your image.";
-}
+
 ?>

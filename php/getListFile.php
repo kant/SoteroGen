@@ -5,8 +5,11 @@ $dir = "../gerator/posts";
 $arrFiles = array();
 //use for return a json format
 $jsonReturn = array();
-//if director exists
+$files = array();
+
+//if directory exists
 if (file_exists($dir)){
+
     //open directory
     if ($handle = opendir($dir)) {
         //while has file
@@ -30,36 +33,40 @@ if (file_exists($dir)){
     }
 
     //sort in growing order
-    krsort($files);
+    //if(count($files) > 0){
 
-    foreach($files as $file) {
+        krsort($files);
 
-        $lastModified = date('F d Y, H:i:s', filemtime($dir."/".$file)  );
-        $filename = $dir."/".$file;
-        array_push($arrFiles, $filename);
+        foreach($files as $file) {
 
-        $myfile = fopen($filename, "r") or die("Unable to open file!");
-        $arr = array();
-        $arr["filename"] = $filename;
+            $lastModified = date('F d Y, H:i:s', filemtime($dir."/".$file)  );
+            $filename = $dir."/".$file;
+            array_push($arrFiles, $filename);
 
-        //turn file to end
-        while(!feof($myfile)) {
-            //get line
-            $linha = fgets($myfile);
-            $taglinha = explode(" : ",$linha);
+            $myfile = fopen($filename, "r") or die("Unable to open file!");
+            $arr = array();
+            $arr["filename"] = $filename;
 
-            while($taglinha[0] == "title"){
-                $str = str_replace(" ", "",$taglinha[1]);
-                $str = str_replace(PHP_EOL, "", $str);
+            //turn file to end
+            while(!feof($myfile)) {
+                //get line
+                $linha = fgets($myfile);
+                $taglinha = explode(" : ",$linha);
 
-                $arr["title"]= $str;
-                array_push($jsonReturn, $arr);
-                break;
+                while($taglinha[0] == "title"){
+                    $str = str_replace(" ", "",$taglinha[1]);
+                    $str = str_replace(PHP_EOL, "", $str);
+
+                    $arr["title"]= $str;
+                    array_push($jsonReturn, $arr);
+                    break;
+                }
             }
         }
-    }
-    echo json_encode($jsonReturn, JSON_PRETTY_PRINT);
 
+        echo json_encode($jsonReturn, JSON_PRETTY_PRINT);
+
+    //}
 }
 
 ?>

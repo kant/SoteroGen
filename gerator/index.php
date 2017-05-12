@@ -4,10 +4,11 @@ include "../php/functionUtil.php";
 
 session_start();
 
-
 $dir = "posts";
-$dirMainSite = $_POST["dirsite"];
-$_SESSION['dirsite'] = $dirMainSite;
+
+$_SESSION['dirsite'] = "../site2";
+//$_SESSION['dirsite'] = $_POST["dirsite"];
+
 $nameYourBlog = "Luis Araujo";
 
 createInitialDirectories();
@@ -136,9 +137,9 @@ function openAllFiles($arrFiles){
 
 
 function createInitialDirectories(){
-	$dirMainSite = $_SESSION['dirsite'] ;
-	
-	if (!file_exists($dirMainSite)) {
+	$dirMainSite = $_SESSION['dirsite'];
+
+    if (!file_exists($dirMainSite)) {
 		//create all directory
 		mkdir ($dirMainSite, 0700);
     	mkdir ($dirMainSite."/posts/", 0700);

@@ -21,11 +21,13 @@ while(!feof($myfile)) {
         if(count($taglinha ) > 1){
             //tag is equal dirsite
             if($taglinha[0] == "dirsite" ){
+                $taglinha[1]  =  str_replace(" ", "",$taglinha[1]);
                 $arr["dirsite"] =  utf8_encode( str_replace(PHP_EOL, "",$taglinha[1]) ) ;
 
             //tag is equal currentstyle
-            }else if($taglinha[0] == "currentstyle" ){
-                $arr["currentstyle"] =  utf8_encode(str_replace(PHP_EOL, "",$taglinha[1])) ;
+            }else if($taglinha[0] == "stylesite" ){
+                $taglinha[1]  =  str_replace(" ", "",$taglinha[1]);
+                $arr["stylesite"] =  utf8_encode(str_replace(PHP_EOL, "",$taglinha[1])) ;
             }
         }
 }
