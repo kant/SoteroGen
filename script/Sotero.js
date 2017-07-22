@@ -1,5 +1,6 @@
 Sotero = function(){
     this.dirSite = "";
+	this.nameSite = "";
     this.currentStylePage = "";
     this.currentFile = "";
     this.managerFile = new ManagerFile();
@@ -21,6 +22,15 @@ Sotero.prototype.getDirSite = function(){
 Sotero.prototype.setDirSite = function(dirSite){
     this.dirSite = dirSite;
 }
+
+
+Sotero.prototype.getNameSite = function(){
+    return this.nameSite;
+}
+Sotero.prototype.setNameSite = function(nameSite){
+    this.nameSite = nameSite;
+}
+
 
 Sotero.prototype.getCurrentStyle = function(){
     return this.currentStylePage;
@@ -314,7 +324,7 @@ Sotero.prototype.setFunticionsButtonsMenu = function(){
     });
 
     $("#bt-savesetting").click(function(){
-        app.getManagerFile().setSetting( $("#inp-text-dirsite").val(), $("#inp-text-stylesite").val());
+        app.getManagerFile().setSetting($("#inp-text-namesite").val(), $("#inp-text-dirsite").val(), $("#inp-text-stylesite").val());
         app.showScreenConfing(false);
     })
 };

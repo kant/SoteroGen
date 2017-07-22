@@ -247,7 +247,7 @@ textarea{
     z-index: 999;
     top: 200px;
     left: calc(50% - 200px);
-    height: 200px;
+    height: 260px;
     width: 400px;
     background-color: #cecece;
     border: solid 1px #1a1a1a;
@@ -257,7 +257,7 @@ textarea{
 #panel-setting .container{
     background-color: #4d4d4d;
     width: 380px;
-    height: 155px;
+    height: 210px;
     padding: 10px;
 }
 #panel-setting .title{

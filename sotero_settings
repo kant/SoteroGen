@@ -1,2 +1,3 @@
-dirsite : ../site2 
-stylesite : normal2
+namesite : Luis Araujo
+dirsite : ../site 
+stylesite : style01

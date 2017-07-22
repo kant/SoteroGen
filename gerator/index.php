@@ -1,15 +1,11 @@
 <?php
 header ('Content-type: text/html; charset=UTF-8');
-include "../php/functionUtil.php";
-
 session_start();
 
+include "../php/functionUtil.php";
 $dir = "posts";
-
-$_SESSION['dirsite'] = "../site2";
-//$_SESSION['dirsite'] = $_POST["dirsite"];
-
-$nameYourBlog = "Luis Araujo";
+ 
+$nameYourBlog = $_SESSION['namesite']; //"Luis Araujo";
 
 createInitialDirectories();
 copyAllImagens();
@@ -23,11 +19,14 @@ function getAllFileInDir($dir){
 	//if director exists		
 	if (file_exists($dir)){
     //open directory		
-    if ($handle = opendir($dir)) {
+    if ($handle = opendir($dir)) 
+	{
     	  //while has file
-        while (false !== ($file = readdir($handle))) {
+        while (false !== ($file = readdir($handle)))
+		{
         	   //exception
-            if ($file != "." && $file != "..") {
+            if ($file != "." && $file != "..")
+			{
 				    //explode for know extension of file                
                 $nameFile = explode(".",$file);
                 //encode content
@@ -41,18 +40,18 @@ function getAllFileInDir($dir){
                     //array_push($arrFiles,  str_replace("../", "", $dir)."/".$file);
                 }
             }
-        	}
-		//close dir
-      	closedir($handle);
-   	 }
+        }
+			//close dir
+			closedir($handle);
+	}
    	 
-   	 //sort in growing order
-     krsort($files);
-    	     	 
-    foreach($files as $file) {
-        $lastModified = date('F d Y, H:i:s', filemtime($dir."/".$file)  );
-        array_push($arrFiles,  str_replace("../", "", $dir)."/".$file);
-    }	 
+	//sort in growing order
+	krsort($files);
+			 
+	foreach($files as $file) {
+		$lastModified = date('F d Y, H:i:s', filemtime($dir."/".$file)  );
+		array_push($arrFiles,  str_replace("../", "", $dir)."/".$file);
+	}	 
 }
 	
 //call open files
@@ -60,7 +59,19 @@ openAllFiles($arrFiles);
 
 }
 
-
+function getDirSettings(){
+	
+	$myfile = fopen("../sotero_settings", "r") or die("Unable to open file!");
+		   
+	//get line dir
+	$linha = fgets($myfile);
+	
+	//close file			
+	fclose($myfile);
+	
+	return  preg_replace( "/\r|\n/", "", str_replace(PHP_EOL, "", explode(" : ",$linha)[1]) );
+	
+}
 //open all files searched
 function openAllFiles($arrFiles){
 	
@@ -69,10 +80,10 @@ function openAllFiles($arrFiles){
 
 	//turn all files 
 	for($i = 0; $i < count($arrFiles); $i++){
-   	//open file
-		$myfile = fopen($arrFiles[$i], "r") or die("Unable to open file!");
+   	   //open file
+	   $myfile = fopen($arrFiles[$i], "r") or die("Unable to open file!");
 		
-		//this is string about content post
+	   //this is string about content post
 	   $joincontent = "";
 	   //flag for signing if is in season of post
 	   $contenttrue = false;
@@ -114,8 +125,6 @@ function openAllFiles($arrFiles){
 		array_push($posts->content, $joincontent);			
 		
 		//create post of last insert in post
-		
-		 
 		createPostFiles( (object) array('title' => $posts->title[count($posts->title) - 1], 
 		 'tags' => $posts->tags[count($posts->tags) - 1], 
 		 'date' => $posts->date[count($posts->date) - 1],
@@ -161,44 +170,44 @@ function createHomePage($posts){
 }
 
 function copyAllImagens(){
-    $dirMainSite = $_SESSION['dirsite'] ;
+    $dirMainSite = $_SESSION['dirsite'];
+	$stylesite = $_SESSION['stylesite'];
+
+	//copy style files    	
+	copy('style/'.$stylesite.'/style_home.css', $dirMainSite."/style/style_home.css");
+	copy('style/'.$stylesite.'/style_pages.css', $dirMainSite."/posts/style/style_pages.css");
 	
-		
-		//copy style files    	
-    	copy('style/style_home.css', $dirMainSite."/style/style_home.css");
-		copy('style/style_pages.css', $dirMainSite."/posts/style/style_pages.css");
-		
-		
-		//copy all imagens		
-		$arrFiles = array();
-		//if director exists		
-		if (file_exists("images")){
-    	//open directory		
-    	if ($handle = opendir("images")) {
-    	echo "ok";
-    	  //while has file
-        while (false !== ($file = readdir($handle))) {
-        	   //exception
-            if ($file != "." && $file != "..") {
-				    //explode for know extension of file                
-                $nameFile = explode(".",$file);
-                //encode content
-                $file = utf8_encode($file);
-					 //if file has extension and is jpg, png, gif file                
-                if((count($nameFile) > 1) && ( ($nameFile[1] == "jpg" ) || ($nameFile[1] == "png" ) || ($nameFile[1] == "gif" )) ){
-      					copy("images/".$file, $dirMainSite."/images/".$file);              
-                }
-            	}
-        		}
-				//close dir
-      		closedir($handle);
-   		 }
-		}
+	
+	//copy all imagens		
+	$arrFiles = array();
+	//if director exists		
+	if (file_exists("images")){
+	//open directory		
+	if ($handle = opendir("images")) {
+	//echo "ok";
+	  //while has file
+	while (false !== ($file = readdir($handle))) {
+		   //exception
+		if ($file != "." && $file != "..") {
+				//explode for know extension of file                
+			$nameFile = explode(".",$file);
+			//encode content
+			$file = utf8_encode($file);
+				 //if file has extension and is jpg, png, gif file                
+			if((count($nameFile) > 1) && ( ($nameFile[1] == "jpg" ) || ($nameFile[1] == "png" ) || ($nameFile[1] == "gif" )) ){
+					copy("images/".$file, $dirMainSite."/images/".$file);              
+			}
+			}
+			}
+			//close dir
+		closedir($handle);
+	 }
+	}
 }
 
 //create post
 function createPostFiles($post){
-    $dirMainSite = $_SESSION['dirsite'] ;
+    $dirMainSite = $_SESSION['dirsite'];
 
 	$url = getURLReplaced($post->title, $post->tags);
 	$newtag =  getStringReplaced($post->tags);
@@ -224,141 +233,161 @@ function createPostFiles($post){
 
 
 function createContentPostHTML($post) {
-global $nameYourBlog;
+	global $nameYourBlog;
 
-$cont = '<html>
-<head>
-<meta charset="utf-8">
-<title>'.$nameYourBlog.' | '.$post->title.'</title>
-<link href="../style/style_pages.css" rel="stylesheet">
+	$cont = '<html>
+	<head>
+	<meta charset="utf-8">
+	<title>'.$nameYourBlog.' | '.$post->title.'</title>
+	<link href="../style/style_pages.css" rel="stylesheet">
 
-<meta property="og:locale" content="pt_BR">
-<meta property="og:url" content="http://luisaraujo.github.io/blog/post/js/instalando_jsdoc.html">
-<meta property="og:title" content="'.$post->title.'">
-<meta property="og:site_name" content="'.$nameYourBlog.'">
-<!-- need set abstract -->
-<meta property="og:description" content="Aprenda a instalar e usar a API de documentação JsDoc para o seu projeto em javascript.">
+	<meta property="og:locale" content="pt_BR">
+	<meta property="og:url" content="http://luisaraujo.github.io/blog/post/js/instalando_jsdoc.html">
+	<meta property="og:title" content="'.$post->title.'">
+	<meta property="og:site_name" content="'.$nameYourBlog.'">
+	<!-- need set abstract -->
+	<meta property="og:description" content="Aprenda a instalar e usar a API de documentação JsDoc para o seu projeto em javascript.">
 
-<meta property="og:image" content="https://luisaraujo.github.io/blog/img/capa.jpg">
-<meta property="og:image:type" content="image/jpeg">
-<meta property="og:image:width" content="800">
-<meta property="og:image:height" content="600">
+	<meta property="og:image" content="https://luisaraujo.github.io/blog/img/capa.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="800">
+	<meta property="og:image:height" content="600">
 
-</head>
+	</head>
 
-<body>
-<header>
-<div class="delimiter">
-<a href="../../index.html"> Luis Araujo </div></a>
-</div>
+	<body>
+	<header>
+	<div class="delimiter">
+	<a href="../../index.html"> '.$nameYourBlog.' </div></a>
+	</div>
 
-<div class="bt"><a href="../../about/index.html">sobre</div>
+	<div class="bt"><a href="../../about/index.html">sobre</div>
 
-</header>
-<article>
+	</header>
+	<article>
 
-<div class="post">
-<div class="title">
-<a href="#">'.$post->title.'</a>
-</div>
+	<div class="post">
+	<div class="title">
+	<a href="#">'.$post->title.'</a>
+	</div>
 
-<div class="meta-data">
-   Postado em:  '.$post->date.'| Tags: <a class="link" href="index.html" >'.$post->tags.'</a>
-</div>
+	<div class="meta-data">
+	   Postado em:  '.$post->date.'| Tags: <a class="link" href="index.html" >'.$post->tags.'</a>
+	</div>
 
-<div class="abstract">
-    '.$post->content.'
-</div>
-</div>
+	<div class="abstract">
+		'.$post->content.'
+	</div>
+	</div>
 
-</article>
+	<!-- TESTE DISQUS -->
 
-<footer>
-<div class="info">
-    Developmented with SoteroGen by Luis Araujo - 2017
-    <div class="icons">
-    <a href="https://www.facebook.com/canalLuis4raujo/?fref=ts" target="blank" class="icon-litte"><img src="../../images/fb-icon.png"></a>
-    <a href="https://www.youtube.com/user/Luis4raujo"  target="blank"  class="icon-litte"><img src="../../images/youtube-icon.png"></a>
-    <a href="https://github.com/LuisAraujo"  target="blank"  class="icon-litte"><img src="../../images/git-icon.png"></a>
-    </div>
-</div>
-</footer>
+	<div id="disqus_thread"></div>
+	<script>
 
-</body>
-</html>';
+	(function() { 
 
-return $cont;
+	// DONT EDIT BELOW THIS LINE
+	var d = document, s = d.createElement("script");
+	s.src = "https://luisaraujo-blog.disqus.com/embed.js";
+	s.setAttribute("data-timestamp", +new Date());
+	(d.head || d.body).appendChild(s);
+	})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+	</div>
+
+
+
+	</article>
+
+	<footer>
+	<div class="info">
+		Developmented with SoteroGen by Luis Araujo - 2017
+		<div class="icons">
+		<a href="https://www.facebook.com/canalLuis4raujo/?fref=ts" target="blank" class="icon-litte"><img src="../../images/fb-icon.png"></a>
+		<a href="https://www.youtube.com/user/Luis4raujo"  target="blank"  class="icon-litte"><img src="../../images/youtube-icon.png"></a>
+		<a href="https://github.com/LuisAraujo"  target="blank"  class="icon-litte"><img src="../../images/git-icon.png"></a>
+		</div>
+	</div>
+	</footer>
+
+	</body>
+	</html>';
+
+	return $cont;
 
 }
 
 
 function createContentHome($posts){
-global $nameYourBlog;
-	
-$cont='<html>
-   <head>
-    <meta charset="utf-8">
-    <title>'.$nameYourBlog.' | Blog</title>
-    <link href="style/style_home.css" rel="stylesheet">
+	global $nameYourBlog;
+		
+	$cont='<html>
+	   <head>
+		<meta charset="utf-8">
+		<title>'.$nameYourBlog.' | Blog</title>
+		<link href="style/style_home.css" rel="stylesheet">
 
-    <meta property="og:locale" content="pt_BR">
-    <meta property="og:url" content="http://luisaraujo.github.io/blog/post/js/instalando_jsdoc.html">
-    <meta property="og:title" content="'.$nameYourBlog.' | Blog">
-    <meta property="og:site_name" content="'.$nameYourBlog.'">
-    <meta property="og:description" content="Seu blog sobre programação! Aprenda sobre web e games. Tudo sobre APIs, frameworks, padrões e programação no mesmo lugar!">
+		<meta property="og:locale" content="pt_BR">
+		<meta property="og:url" content="http://luisaraujo.github.io/blog/post/js/instalando_jsdoc.html">
+		<meta property="og:title" content="'.$nameYourBlog.' | Blog">
+		<meta property="og:site_name" content="'.$nameYourBlog.'">
+		<meta property="og:description" content="Seu blog sobre programação! Aprenda sobre web e games. Tudo sobre APIs, frameworks, padrões e programação no mesmo lugar!">
 
-    <meta property="og:image" content="https://luisaraujo.github.io/blog/img/capa.jpg">
-    <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:width" content="800">
-    <meta property="og:image:height" content="600">
+		<meta property="og:image" content="https://luisaraujo.github.io/blog/img/capa.jpg">
+		<meta property="og:image:type" content="image/jpeg">
+		<meta property="og:image:width" content="800">
+		<meta property="og:image:height" content="600">
 
-</head>
+	</head>
 
-<body>
-<header>
-<div class="delimiter">
-<a href="index.html"> Luis Araujo </a>
-</div> 
-</div>
-<div class="bt"><a href="about/index.html">sobre <a/> </div>
+	<body>
+	<header>
+	<div class="delimiter">
+	<a href="index.html"> '.$nameYourBlog.' </a>
+	</div> 
+	</div>
+	<div class="bt"><a href="about/index.html">sobre <a/> </div>
 
-</header>
-<article>'; 
+	</header>
+	<article>'; 
 
-$limit = (count($posts->title) >  5) ? 5 : count($posts->title);
+	$limit = (count($posts->title) >  5) ? 5 : count($posts->title);
 
-for($i = 0; $i < $limit ;  $i++){
-    $cont.='<div class="post">
-    <div class="title">
-    <a href="posts/'.getURLReplaced($posts->title[$i], $posts->tags[$i]).'.html">'.$posts->title[$i].'</a>
-    </div>
-    <div class="meta-data">
-       Postado em:  '.$posts->date[$i].'
-    </div>
-    <div class="abstract">
-        '.$posts->abstract[$i].'
-    </div>
-    <span ><a class="tags" href="posts/'.$posts->tags[$i].'">'.$posts->tags[$i].' </a>
-    </div>
-    ';
-}
+	for($i = 0; $i < $limit ;  $i++){
+		$cont.='<div class="post">
+		<div class="title">
+		<a href="posts/'.getURLReplaced($posts->title[$i], $posts->tags[$i]).'.html">'.$posts->title[$i].'</a>
+		</div>
+		<div class="meta-data">
+		   Postado em:  '.$posts->date[$i].'
+		</div>
+		<div class="abstract">
+			'.$posts->abstract[$i].'
+		</div>
+		<span ><a class="tags" href="posts/'.$posts->tags[$i].'">'.$posts->tags[$i].' </a>
+		</div>
+		';
+	}
 
-$cont.='</article><footer>
-<div class="info">
-Developmented with SoteroGen by Luis Araujo - 2017
-<div class="icons">
-<a href="https://www.facebook.com/canalLuis4raujo/?fref=ts" target="blank" class="icon-litte"><img src="images/fb-icon.png"></a>
-<a href="https://www.youtube.com/user/Luis4raujo"  target="blank"  class="icon-litte"><img src="images/youtube-icon.png"></a>
-<a href="https://github.com/LuisAraujo"  target="blank"  class="icon-litte"><img src="images/git-icon.png"></a>
-</div>
+	$cont.='</article><footer>
+	<div class="info">
+	Developmented with SoteroGen by Luis Araujo - 2017
+	<div class="icons">
+	<a href="https://www.facebook.com/canalLuis4raujo/?fref=ts" target="blank" class="icon-litte"><img src="images/fb-icon.png"></a>
+	<a href="https://www.youtube.com/user/Luis4raujo"  target="blank"  class="icon-litte"><img src="images/youtube-icon.png"></a>
+	<a href="https://github.com/LuisAraujo"  target="blank"  class="icon-litte"><img src="images/git-icon.png"></a>
+	</div>
 
-</div>
-</footer>
+	</div>
+	</footer>
 
-</body>
-</html>';
+	</body>
+	</html>';
 
-return $cont;
+	return $cont;
 
 
 }
@@ -366,118 +395,117 @@ return $cont;
 
 function getAllTags(){
 
-global $dirMainSite;
-$arrayTags = array();
-
-
-$arrFiles = array();
-	//if director exists		
-	if (file_exists($dirMainSite.'/posts')){
-    //open directory		
-    if ($handle = opendir($dirMainSite.'/posts')) {
-    	  //while has file
-        while (false !== ($file = readdir($handle))) {
-        	       //explode for know extension of file                
-                $nameFile = explode(".",$file);
-                //encode content
-                $file = utf8_encode($file);
-					 //only folder             
-                if((count($nameFile) == 1) && ($nameFile[0] != "style" )){
-                	 //save name folders in array      
-				   	 array_push($arrayTags, $file);
-            	}
-        	}
-			//close dir
-      	closedir($handle);
-   	 }
-
-	}
+	$dirMainSite = $_SESSION['dirsite'] ;
+	$arrayTags = array();
+	$arrFiles = array();
 	
+		//if director exists		
+		if (file_exists($dirMainSite.'/posts')){
+			//open directory		
+			if ($handle = opendir($dirMainSite.'/posts')) {
+				//while has file
+				while (false !== ($file = readdir($handle))) {
+						//explode for know extension of file                
+						$nameFile = explode(".",$file);
+						//encode content
+						$file = utf8_encode($file);
+						//only folder             
+						if((count($nameFile) == 1) && ($nameFile[0] != "style" )){
+							 //save name folders in array      
+							 array_push($arrayTags, $file);
+						}
+					}
+				//close dir
+				closedir($handle);
+			}
+
+		}
+		
 	return $arrayTags;
 }
 
 
 function createContentPageTags($tag){
-global $nameYourBlog;
-global $dirMainSite;
+	global $nameYourBlog;
+	$dirMainSite = $_SESSION['dirsite'] ;
 
 
-$cont = '<html>
-<head>
-    <meta charset="utf-8">
-    <title>'.$nameYourBlog.' | Blog</title>
-    <link href="../style/style_pages.css" rel="stylesheet">
-</head>
-<body>
-<header>
-<div class="delimiter">
-<a href="../../index.html"> '.$nameYourBlog.' </div></a>
-</div>
-<div class="bt"><a href="../../about/index.html">sobre</div>
-</header>
-<article>
-<div class="post">
-<div class="title">
-<a href="#">'.ucfirst($tag).'</a>
-</div>
+	$cont = '<html>
+	<head>
+		<meta charset="utf-8">
+		<title>'.$nameYourBlog.' | Blog</title>
+		<link href="../style/style_pages.css" rel="stylesheet">
+	</head>
+	<body>
+	<header>
+	<div class="delimiter">
+	<a href="../../index.html"> '.$nameYourBlog.' </div></a>
+	</div>
+	<div class="bt"><a href="../../about/index.html">sobre</div>
+	</header>
+	<article>
+	<div class="post">
+	<div class="title">
+	<a href="#">'.ucfirst($tag).'</a>
+	</div>
 
-<div class="meta-data">
-Todos os posts sobre '.$tag.'
-</div>
+	<div class="meta-data">
+	Todos os posts sobre '.$tag.'
+	</div>
 
-<div class="abstract">';
-	   
-$dir = $dirMainSite."/posts/".$tag;
+	<div class="abstract">';
+		   
+	$dir = $dirMainSite."/posts/".$tag;
 
-if ($handle = opendir($dir)) {
-  //while has file
-while (false !== ($file = readdir($handle))) {
-       //exception
-    if ($file != "." && $file != "..") {
-            //explode for know extension of file
-        $nameFile = explode(".",$file);
-        //encode content
-        $file = utf8_encode($file);
-             //if file has extension and is txt file
-        if((count($nameFile) > 1) && ($nameFile[1] == "html" ) && ($nameFile[0] != "index" )){
-                    $cont.='<ul>
-                        <li class="listpost"> <a class="link" href="'.$file.'">'.ucfirst( explode(".", str_replace("_", " ",$file))[0] ).'</a></li>
-                    </ul>'
-                                        ;
-        }
-    }
-    }
-    //close dir
-closedir($handle);
-}
+	if ($handle = opendir($dir)) {
+	  //while has file
+	while (false !== ($file = readdir($handle))) {
+		   //exception
+		if ($file != "." && $file != "..") {
+				//explode for know extension of file
+			$nameFile = explode(".",$file);
+			//encode content
+			$file = utf8_encode($file);
+				 //if file has extension and is txt file
+			if((count($nameFile) > 1) && ($nameFile[1] == "html" ) && ($nameFile[0] != "index" )){
+						$cont.='<ul>
+							<li class="listpost"> <a class="link" href="'.$file.'">'.ucfirst( explode(".", str_replace("_", " ",$file))[0] ).'</a></li>
+						</ul>'
+											;
+			}
+		}
+		}
+		//close dir
+	closedir($handle);
+	}
 
-$cont.='</div>
-</div>
+	$cont.='</div>
+	</div>
 
-</article>
+	</article>
 
-<footer>
-<div class="info">
-    Developmented with SoteroGen by Luis Araujo - 2017
-    <div class="icons">
-    <a href="https://www.facebook.com/canalLuis4raujo/?fref=ts" target="blank" class="icon-litte"><img src="../../images/fb-icon.png"></a>
-    <a href="https://www.youtube.com/user/Luis4raujo"  target="blank"  class="icon-litte"><img src="../../images/youtube-icon.png"></a>
-    <a href="https://github.com/LuisAraujo"  target="blank"  class="icon-litte"><img src="../../images/git-icon.png"></a>
-    </div>
-</div>
-</footer>
+	<footer>
+	<div class="info">
+		Developmented with SoteroGen by Luis Araujo - 2017
+		<div class="icons">
+		<a href="https://www.facebook.com/canalLuis4raujo/?fref=ts" target="blank" class="icon-litte"><img src="../../images/fb-icon.png"></a>
+		<a href="https://www.youtube.com/user/Luis4raujo"  target="blank"  class="icon-litte"><img src="../../images/youtube-icon.png"></a>
+		<a href="https://github.com/LuisAraujo"  target="blank"  class="icon-litte"><img src="../../images/git-icon.png"></a>
+		</div>
+	</div>
+	</footer>
 
-</body>
-</html>';
+	</body>
+	</html>';
 
 
-return $cont;
+	return $cont;
 
 }
 
 
 function createPageTags($tags){
-		global $dirMainSite; 
+		$dirMainSite = $_SESSION['dirsite'];
 		
 		
 		for($i=0; $i < count($tags); $i++){
@@ -487,80 +515,82 @@ function createPageTags($tags){
 			fwrite($myfile, createContentPageTags($tags[$i]));
 			fclose($myfile);  
 		}
+		
 }
 
+
+
+
+
+function createContentPageAbout($content){
+	global $nameYourBlog;
+
+	$cont='
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>'.$nameYourBlog.' | Blog</title>
+		<link href="../posts/style/style_pages.css" rel="stylesheet">
+	</head>
+
+	<body>
+	<header>
+		<div class="delimiter">
+			<a href="../index.html"> '.$nameYourBlog.' </div></a>
+		</div>
+		<div class="bt"><a href="../../about/index.html">sobre</div>
+	</header>
+	<article>
+
+	<div class="post">
+	<div class="title">
+	<a href="#">Sobre</a>
+	</div>
+
+	<img class="profile" src="../images/perfil.png">
+
+	<div class="abstract">'. $content. '</article>
+
+	<footer>
+	<div class="info">
+		Desenvolvido por Luis Araujo - 2017
+		<div class="icons">
+		<a href="https://www.facebook.com/canalLuis4raujo/?fref=ts" target="blank" class="icon-litte"><img src="../images/fb-icon.png"></a>
+		<a href="https://www.youtube.com/user/Luis4raujo"  target="blank"  class="icon-litte"><img src="../images/youtube-icon.png"></a>
+		<a href="https://github.com/LuisAraujo"  target="blank"  class="icon-litte"><img src="../images/git-icon.png"></a>
+		</div>
+	</div>
+	</footer>
+
+	</body>
+	</html>';
+
+	return $cont;
+}
+
+
 function createPageAbout(){	
-	global $dirMainSite; 
+
+	$dirMainSite = $_SESSION['dirsite']; 
 
 	//open file
 	$myfile = fopen('pagesfixed/about.txt', "r") or die("Unable to open file!");
 	$content = "";	   
 	//turn file to end
 	while(!feof($myfile)) {
-			//get line
-			$linha = fgets($myfile);
-			$content .= utf8_encode($linha);  			
+		//get line
+		$linha = fgets($myfile);
+		$content .= utf8_encode($linha);  			
 	}
 		
-	fclose($myfile);
-		
-		
+	fclose($myfile);	
+
 	$filename = $dirMainSite."/about/index.html";	
 	$myfile = fopen($filename, "w");
 	fwrite($myfile, createContentPageAbout($content));
 	fclose($myfile);  
 	
 }	
-
-
-
-function createContentPageAbout($content){
-global $nameYourBlog;
-
-
-$cont='
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>'.$nameYourBlog.' | Blog</title>
-    <link href="../posts/style/style_pages.css" rel="stylesheet">
-</head>
-
-<body>
-<header>
-    <div class="delimiter">
-        <a href="../index.html"> '.$nameYourBlog.' </div></a>
-    </div>
-    <div class="bt"><a href="../../about/index.html">sobre</div>
-</header>
-<article>
-
-<div class="post">
-<div class="title">
-<a href="#">Sobre</a>
-</div>
-
-<img class="profile" src="../images/perfil.png">
-
-<div class="abstract">'. $content. '</article>
-
-<footer>
-<div class="info">
-    Desenvolvido por Luis Araujo - 2017
-    <div class="icons">
-    <a href="https://www.facebook.com/canalLuis4raujo/?fref=ts" target="blank" class="icon-litte"><img src="../images/fb-icon.png"></a>
-    <a href="https://www.youtube.com/user/Luis4raujo"  target="blank"  class="icon-litte"><img src="../images/youtube-icon.png"></a>
-    <a href="https://github.com/LuisAraujo"  target="blank"  class="icon-litte"><img src="../images/git-icon.png"></a>
-    </div>
-</div>
-</footer>
-
-</body>
-</html>';
-
-return $cont;
-
-}
 
 
 ?>

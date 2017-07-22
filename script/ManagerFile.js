@@ -6,9 +6,17 @@ ManagerFile.prototype.getSetting = function(callback){
     var jqxhr = $.post( "php/getSetting.php", function() {
     })
         .done(function(data){
+			
             data_json = jQuery.parseJSON(data);
             app.setDirSite(data_json[0]["dirsite"]);
             app.setCurrentStyle(data_json[0]["stylesite"]);
+			app.setNameSite(data_json[0]["namesite"]);
+			
+			$("#inp-text-namesite").val(data_json[0]["namesite"]);
+            $("#inp-text-dirsite").val(data_json[0]["dirsite"]);
+            $("#inp-text-stylesite").val(data_json[0]["stylesite"]);
+			
+			
             if(callback!=undefined)
                 callback();
         })
@@ -17,12 +25,13 @@ ManagerFile.prototype.getSetting = function(callback){
         });
 };
 
-ManagerFile.prototype.setSetting = function(dirSite, currentStyle){
+ManagerFile.prototype.setSetting = function(nameSite, dirSite, currentStyle){
     console.log(dirSite, currentStyle);
-    var jqxhr = $.post( "php/setSetting.php",{dirsite: dirSite, stylesite: currentStyle }, function() {
+    var jqxhr = $.post( "php/setSetting.php",{namesite: nameSite, dirsite: dirSite, stylesite: currentStyle }, function() {
     })
-        .done(function(data){
+        .done(function(data){		
             data_json = jQuery.parseJSON(data);
+			$("#inp-text-namesite").val(data_json["namesite"]);
             $("#inp-text-dirsite").val(data_json["dirsite"]);
             $("#inp-text-stylesite").val(data_json["stylesite"]);
         })

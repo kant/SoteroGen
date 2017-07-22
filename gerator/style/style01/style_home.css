@@ -3,6 +3,7 @@
     src: url(Georgia.ttf);
 }
 
+
 a{
 	text-decoration:none;
 }
@@ -19,15 +20,14 @@ a{
 html{
 	height:100%;
 }
-
 body{
     font-family: Georgia;
     color: #444;
     padding: 0px;
     margin: 0px;
+	background-color: #2a2a2a;
 	padding: 0px;
 	height:100%;
-    background-color: #fff;
 }
 
 header{
@@ -35,8 +35,12 @@ header{
 	font-size: 40px;
 	height: 50px;
 	border-bottom: 2px solid #eee;
-	background-color: #fff;
+	background-color: #222;
 	padding-top: 10px;
+}
+
+header a{
+	color: rgb(255,255,255)
 }
 
 header .delimiter{
@@ -45,47 +49,46 @@ header .delimiter{
 	float:left;
 }
 
+
 header .bt{
 	height: 20px;
 	border-radius: 5px;
-	border: 1.4px solid #aaa;
+	border: 1.4px solid #fff;
 	padding:5px;
-	background: #fff;
+	background: #222;
 	float:left;
 	font-size: 15px;
 }
 
-header a{
-color:#000;
-}
-
-
 article{
     margin-top:10px;
 	width: 70%;
-	min-height: calc(100% - 200px);
+	min-height: calc( 100% - 180px);
+	min-height: -moz-calc( 100% - 180px);
+	min-height: -webkit-calc( 100% - 180px);
 	margin-left: 15%;
+
 }
 
 .post{
 	width: calc(100% - 50px);
+	height: 150px;
 	overflow: hidden;
 	text-aling: justify;
-	
+	font-size: 17px;
 	padding:20px;
 	margin-top: 20px;
 	margin-left: 10px;
-	background-color: #fff;
+	background-color: #444;
+	border-bottom: 3px solid #333;
+}
+
+.post .title{
+	font-size: 30px;
 }
 
 .post .title a{
-	color: #000;
-	font-size: 40px;
-}
-
-.subtitle{
-	color: #000;
-	font-size: 30px;
+	color: #fff;
 }
 
 
@@ -94,32 +97,14 @@ article{
 }
 
 .post .abstract{
+    height: 100px;
 	width: calc(100% - 20px);
 	text-align: justify;
 	margin-top: 5px;
-	font-size: 20px;
-	line-height: 25px;
+	line-height: 20px;
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
-
-.code{
-	font-family: arial;
-	background-color: #eee;
-	border-radius: 10px;
-	padding:10px;
-	padding-left:20px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-
-}
-
-.emotion{
-	width:20px;
-	height:20px;
-}
-
-
 
 
 footer{
@@ -156,29 +141,21 @@ footer .info{
 	margin-top: 10px;
 }
 
-.profile{
-	width:100px;
-	height:100px;
-	border-radius: 50px;
+.tags{
+	font-size:14px;
+	color: #fff !important;
+	padding: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 5px;
+	background-color:  #333;
 }
 
-
-.listpost{
-	list-style-type: disc;
+.tags:hover{
+	color:#000 !important;
 }
 
-
-
-.img-large{
-	width: 70%;
-	margin-left: 15%;
-    margin-bottom:10px;	
+.meta-data{
+	font-size: 10px;
+	height: 10px;
 }
-
-.img-little{
-	width: 50%;
-	margin-left: 25%;
-    margin-bottom:10px;	
-}
-
-

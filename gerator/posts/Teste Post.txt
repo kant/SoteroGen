@@ -1,0 +1,7 @@
+title : Teste  Post
+tag : teste
+date : 10/10/2017
+abstract : Testando...
+content : <div class='subtitle'> Teste </div>
+
+Testando

@@ -1,6 +1,0 @@
-title : aaaa
-tag : 
-date : 
-abstract : 
-content : <img src='../../images/newfile_icon_img.png'>
-

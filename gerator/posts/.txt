@@ -1,5 +1,0 @@
-title : 
-tag : 
-date : 
-abstract : 
-content : 
