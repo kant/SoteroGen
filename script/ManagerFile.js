@@ -94,7 +94,19 @@ ManagerFile.prototype.saveFile = function(filepath, title, tag, date,abstract, c
 };
 
 
+ManagerFile.prototype.deleteFile = function(filepath){
 
+   var jqxhr = $.post( "php/deleteFilesPost.php", {filepath: filepath},  function() {
+    })
+        .done(function(data){
+            console.log(data)
+			app.showListFiles();
+        })
+
+        .fail(function() {
+            alert( "error" );
+        });
+};
 
 ManagerFile.prototype.createBlog = function(mode){
 

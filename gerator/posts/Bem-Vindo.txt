@@ -2,7 +2,7 @@ title : Bem-Vindo
 tag : geral
 date : 29/04/2017
 abstract : Olá pessoal, estou iniciando mais uma canal de interação para divulgação dos projetos e divulgação de 
-tutoriais e aulas sobre programação em geral. Clique no link e seja bem vindo!
+
 content : 
 	<p>Olá, caro leitor! Estou iniciando esse novo canal de interação para divulgação dos projetos e
 	disponibilização dos tutoriais e aulas de um modo mais rápido - se comparado ao youtube. Não
@@ -33,4 +33,5 @@ content :
 	</p>
 	
 	
+
 

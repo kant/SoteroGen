@@ -62,15 +62,25 @@ Sotero.prototype.showListFiles = function(){
 
        $("#list-file").html("");
 
+
        for(var i = 0; i< data_json.length; i++){
-           $("#list-file").append('<div class="item-list-file" filepath='+
-               listfile [i]["filename"] +'> <img src="ui/icon_li.png">' +
-               listfile [i]["title"]+'</div>'
-           );
-       }
+		   
+		   elem = '<div class="item-list-file" ';
+		   if(i==0)
+			   elem += 'id="post-selected"';
+		   
+		   elem +=' filepath="'+(listfile[i]["filename"])+'" > <img src="ui/icon_li.png">';
+		   elem+=listfile [i]["title"]+'</div>'
+           $("#list-file").append(elem);
+       
+	   }
 
        $(".item-list-file").bind('click', function(event){
            filepath = $(this).attr("filepath");
+		   //set this post as selected
+		   $("#post-selected").attr("id", "");
+		   $(this).attr("id","post-selected");
+		   
            app.setCurrentFile(filepath);
            app.getManagerFile().getDataFiles( filepath );
            app.showInputs();
@@ -351,12 +361,23 @@ Sotero.prototype.setContentInFrameEditor= function(content){
 }
 
 Sotero.prototype.savePost = function(){
+	//is a new post
     if(app.currentFile!="newfile"){
+		namepost = "../gerator/posts/"+$("#inp-text-title").val().replace(" ", "")+".txt";
+		postchanged = $("#list-file").find("[filepath='" + namepost + "']");
+		
+		if(postchanged.length == 0){
+			 app.getManagerFile().deleteFile($("#post-selected").attr("filepath") );
+		}
+	
         app.getManagerFile().saveFile("gerator/posts/"+$("#inp-text-title").val().replace(" ", "")+".txt", $("#inp-text-title").val(), $("#inp-text-tag").val(),
-            $("#inp-text-date").val(),  $("#inp-text-abstract").val(), $("#inp-text-content").val());
-    }else{
-        app.getManagerFile().saveFile("gerator/posts/"+$("#inp-text-title").val().replace(" ", "")+".txt" , $("#inp-text-title").val(), $("#inp-text-tag").val(),
-            $("#inp-text-date").val(),  $("#inp-text-abstract").val(), $("#inp-text-content").val());
+        $("#inp-text-date").val(),  $("#inp-text-abstract").val(), $("#inp-text-content").val());
+      
+   }else{
+	    
+    
+		app.getManagerFile().saveFile("gerator/posts/"+$("#inp-text-title").val().replace(" ", "")+".txt" , $("#inp-text-title").val(), $("#inp-text-tag").val(),
+        $("#inp-text-date").val(),  $("#inp-text-abstract").val(), $("#inp-text-content").val());
         app.setCurrentFile("");
     }
 }
@@ -385,7 +406,7 @@ Sotero.prototype.showScreenConfing = function(mode){
 Sotero.prototype.createNewPost = function(){
 
     app.setCurrentFile("newfile");
-    $("#list-file").append('<div class="item-list-file" id="item-new-post" filepath=""><img src="ui/icon_li.png">Novo Post</div>');
+    $("#list-file").append('<div class="item-list-file" oldname="" id="item-new-post" filepath=""><img src="ui/icon_li.png">Novo Post</div>');
 
     $("#item-new-post").click(function(){
         $("#inp-text-title").val("");
