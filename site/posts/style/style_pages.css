@@ -27,15 +27,14 @@ body{
     margin: 0px;
 	padding: 0px;
 	height:100%;
-    background-color: #fff;
+    background-color: #2a2a2a;
 }
 
 header{
-    
 	font-size: 40px;
 	height: 50px;
 	border-bottom: 2px solid #eee;
-	background-color: #fff;
+	background-color: #222;
 	padding-top: 10px;
 }
 
@@ -48,15 +47,15 @@ header .delimiter{
 header .bt{
 	height: 20px;
 	border-radius: 5px;
-	border: 1.4px solid #aaa;
+	border: 1.4px solid #fff;
 	padding:5px;
-	background: #fff;
+	background: #222;
 	float:left;
 	font-size: 15px;
 }
 
 header a{
-color:#000;
+	color:#fff;
 }
 
 
@@ -71,20 +70,20 @@ article{
 	width: calc(100% - 50px);
 	overflow: hidden;
 	text-aling: justify;
-	
+	color:#aaa;
 	padding:20px;
 	margin-top: 20px;
 	margin-left: 10px;
-	background-color: #fff;
+	background-color: #444;
 }
 
 .post .title a{
-	color: #000;
+	color: #fff;
 	font-size: 40px;
 }
 
 .subtitle{
-	color: #000;
+	color: #fff;
 	font-size: 30px;
 }
 
@@ -181,4 +180,8 @@ footer .info{
     margin-bottom:10px;	
 }
 
+
+.meta-data{
+	color:#aaa;
+}
 

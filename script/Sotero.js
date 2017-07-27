@@ -350,10 +350,10 @@ Sotero.prototype.setContentInFrameEditor= function(content){
     var find = "../../images/";
     var re = new RegExp(find, 'g');
     content = content.replace(re,  "gerator/"+app.dirSite+"/images/");
-
-
+	//update setting
+	app.getManagerFile().getSetting();
     ifrm.document.write(
-        "<html><head> <link href='gerator/style/style_pages.css' rel='stylesheet'></head> <body style='padding:20px'>" +
+	            "<html><head> <link href='gerator/style/"+$("#inp-text-stylesite").val()+"/style_pages.css' rel='stylesheet'></head> <body style='padding:20px'>" +
         "<div class='abstract'>"+content+"</div></body></html>");
 
     ifrm.document.close();
