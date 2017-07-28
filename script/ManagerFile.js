@@ -94,13 +94,15 @@ ManagerFile.prototype.saveFile = function(filepath, title, tag, date,abstract, c
 };
 
 
-ManagerFile.prototype.deleteFile = function(filepath){
+ManagerFile.prototype.deleteFile = function(filepath, show){
 
    var jqxhr = $.post( "php/deleteFilesPost.php", {filepath: filepath},  function() {
     })
         .done(function(data){
-            console.log(data)
-			app.showListFiles();
+            if(show)
+				app.showListFiles();
+			else
+				app.showListFilesNoSelect();
         })
 
         .fail(function() {

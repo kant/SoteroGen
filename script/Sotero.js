@@ -6,10 +6,11 @@ Sotero = function(){
     this.managerFile = new ManagerFile();
     this.modeeditor = "text";
 
-    $('#bt-textmode').hide();
-    $('#bt-codemode').show();
+    $("#bt-textmode").hide();
+    $("#bt-codemode").show();
     $("#inp-text-content").hide();
     $("#inp-text-content2").show();
+	$("#bt-deletepost").hide();
 
     this.managerFile.getSetting();
 
@@ -58,6 +59,7 @@ Sotero.prototype.getCurrentFile = function(){
 }
 
 Sotero.prototype.showListFiles = function(){
+	
    this.getManagerFile().getListFiles( function(listfile){
 
        $("#list-file").html("");
@@ -77,6 +79,52 @@ Sotero.prototype.showListFiles = function(){
 
        $(".item-list-file").bind('click', function(event){
            filepath = $(this).attr("filepath");
+		   $("#bt-deletepost").show();
+		   $("#bt-savepost").show();
+		   //set this post as selected
+		   $("#post-selected").attr("id", "");
+		   $(this).attr("id","post-selected");
+		   
+           app.setCurrentFile(filepath);
+           app.getManagerFile().getDataFiles( filepath );
+           app.showInputs();
+       });
+
+   } );
+};
+
+
+
+Sotero.prototype.showListFilesNoSelect = function(){
+	
+   this.getManagerFile().getListFiles( function(listfile){
+
+       $("#list-file").html("");
+
+
+       for(var i = 0; i< data_json.length; i++){
+		   
+		   elem = '<div class="item-list-file" ';
+		   elem +=' filepath="'+(listfile[i]["filename"])+'" > <img src="ui/icon_li.png">';
+		   elem+=listfile [i]["title"]+'</div>'
+           $("#list-file").append(elem);
+       
+	   }
+		
+		//clear selection post
+		$("#inp-text-title").val("");
+		$("#inp-text-tag").val("");
+        $("#inp-text-date").val("");
+		$("#inp-text-abstract").val("");
+		$("#inp-text-content").val("");
+		 $("#bt-deletepost").hide();
+		  $("#bt-savepost").hide();
+	   
+       $(".item-list-file").bind('click', function(event){
+           
+		   filepath = $(this).attr("filepath");
+		   $("#bt-deletepost").show();
+		   $("#bt-savepost").show();
 		   //set this post as selected
 		   $("#post-selected").attr("id", "");
 		   $(this).attr("id","post-selected");
@@ -92,6 +140,10 @@ Sotero.prototype.showListFiles = function(){
 
 Sotero.prototype.setFunticionTextAndCodeMode = function (){
 
+	$("#bt-deletepost").click(function(){
+		app.getManagerFile().deleteFile($("#post-selected").attr("filepath"));
+	});
+	
     $('#bt-codemode').click(function(){
 
         app.modeeditor = "code";
@@ -367,7 +419,7 @@ Sotero.prototype.savePost = function(){
 		postchanged = $("#list-file").find("[filepath='" + namepost + "']");
 		
 		if(postchanged.length == 0){
-			 app.getManagerFile().deleteFile($("#post-selected").attr("filepath") );
+			 app.getManagerFile().deleteFile($("#post-selected").attr("filepath"), true );
 		}
 	
         app.getManagerFile().saveFile("gerator/posts/"+$("#inp-text-title").val().replace(" ", "")+".txt", $("#inp-text-title").val(), $("#inp-text-tag").val(),
