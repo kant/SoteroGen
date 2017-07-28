@@ -8,9 +8,10 @@ SOTEROgen - Static site gerator with PHP
 * Developmented (HTML, JS e PHP)
 * You don't need know about programming
 * You can change theme, if you know about CSS and HTML
-* Usa Bootstarp
+* Use Bootstarp
 
 # Version
+
 alfa
 
 # How use
@@ -18,7 +19,7 @@ alfa
 * Download a local server for run PHP, like XAMP
 * Download SoteroGen and move for your sever folder
 * Go to "localhost/soterogen" in your browser
-* Start a new post, edit a old post and delete any post (yet in developmenting)
+* Start a new post, edit a old post and delete any post
 * After modification, click in gereate (you can change folder you site)
 
 
