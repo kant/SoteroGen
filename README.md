@@ -1,4 +1,4 @@
-SOTEROgen - Static site gerator with PHP 
+SOTEROgen - Static site generator with PHP 
 =========================
 ![SOTEROgen](https://github.com/LuisAraujo/SoteroGen/blob/master/logo.jpg?raw=true)
 
@@ -17,10 +17,10 @@ alfa
 # How use
 
 * Download a local server for run PHP, like XAMP
-* Download SoteroGen and move for your sever folder
+* Download SoteroGen and move for your server folder
 * Go to "localhost/soterogen" in your browser
 * Start a new post, edit a old post and delete any post
-* After modification, click in gereate (you can change folder you site)
+* After modification, click in generate (you can change folder you site)
 
 
 # Screens of SOTEROGen
@@ -38,7 +38,7 @@ alfa
 ![SOTEROgen](https://raw.githubusercontent.com/LuisAraujo/SoteroGen/master/screen04.png)
 
 
-#Screens of Blog gerated
+#Screens of Blog generated
 
 ###Home Page of Blog
 ![Blog gerated](https://raw.githubusercontent.com/LuisAraujo/SoteroGen/master/screen05.png)
